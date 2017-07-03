@@ -1,0 +1,2561 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/debug/project1.X.debug.obj
+cinit CODE 0 3502 3502 A2 1
+intcode_body CODE 0 35A4 35A4 9A 1
+text0 CODE 0 2650 2650 1E4 1
+text1 CODE 0 3ED8 3ED8 3C 1
+text2 CODE 0 2F92 2F92 E4 1
+text3 CODE 0 42BC 42BC 14 1
+text4 CODE 0 2C86 2C86 122 1
+text5 CODE 0 2B56 2B56 130 1
+text6 CODE 0 3AA8 3AA8 68 1
+text7 CODE 0 41F2 41F2 1C 1
+text8 CODE 0 4360 4360 8 1
+text9 CODE 0 6C2 6C2 6C4 1
+text10 CODE 0 3CEC 3CEC 52 1
+text11 CODE 0 1D5A 1D5A 3AC 1
+text12 CODE 0 4368 4368 6 1
+text13 CODE 0 3B74 3B74 62 1
+text14 CODE 0 37E6 37E6 78 1
+text15 CODE 0 4062 4062 30 1
+text16 CODE 0 3FC0 3FC0 36 1
+text17 CODE 0 3D90 3D90 44 1
+text18 CODE 0 4308 4308 10 1
+text19 CODE 0 3FF6 3FF6 36 1
+text20 CODE 0 42E4 42E4 12 1
+text21 CODE 0 39C4 39C4 74 1
+text22 CODE 0 42F6 42F6 12 1
+text23 CODE 0 418E 418E 24 1
+text24 CODE 0 4336 4336 C 1
+text25 CODE 0 4380 4380 4 1
+text26 CODE 0 4318 4318 10 1
+text27 CODE 0 3154 3154 D2 1
+text28 CODE 0 3DD4 3DD4 44 1
+text29 CODE 0 3B10 3B10 64 1
+text30 CODE 0 4276 4276 18 1
+text31 CODE 0 428E 428E 18 1
+text32 CODE 0 3C94 3C94 58 1
+text33 CODE 0 394E 394E 76 1
+text34 CODE 0 3F14 3F14 3A 1
+text35 CODE 0 40C0 40C0 2C 1
+text36 CODE 0 422A 422A 1A 1
+text38 CODE 0 18F4 18F4 466 1
+text39 CODE 0 2464 2464 1EC 1
+text40 CODE 0 3458 3458 AA 1
+text41 CODE 0 3076 3076 DE 1
+text42 CODE 0 385E 385E 78 1
+text43 CODE 0 2E9E 2E9E F4 1
+text44 CODE 0 36D2 36D2 90 1
+text45 CODE 0 2834 2834 1AC 1
+text46 CODE 0 38D6 38D6 78 1
+text47 CODE 0 3F88 3F88 38 1
+text48 CODE 0 33AA 33AA AE 1
+text49 CODE 0 3762 3762 84 1
+text50 CODE 0 4328 4328 E 1
+text51 CODE 0 3C36 3C36 5E 1
+text52 CODE 0 4118 4118 28 1
+text53 CODE 0 4384 4384 4 1
+text54 CODE 0 436E 436E 6 1
+text55 CODE 0 4342 4342 C 1
+text56 CODE 0 32F4 32F4 B6 1
+text57 CODE 0 4374 4374 6 1
+text58 CODE 0 434E 434E A 1
+text59 CODE 0 1354 1354 5A0 1
+text60 CODE 0 2DA8 2DA8 F6 1
+text61 CODE 0 3BD6 3BD6 60 1
+text62 CODE 0 420E 420E 1C 1
+text63 CODE 0 41B2 41B2 22 1
+text64 CODE 0 4244 4244 1A 1
+text65 CODE 0 3F4E 3F4E 3A 1
+text66 CODE 0 D86 D86 5CE 1
+text67 CODE 0 3E18 3E18 42 1
+text68 CODE 0 40EC 40EC 2C 1
+text69 CODE 0 3226 3226 CE 1
+text70 CODE 0 4168 4168 26 1
+text71 CODE 0 41D4 41D4 1E 1
+text72 CODE 0 4140 4140 28 1
+text73 CODE 0 402C 402C 36 1
+text74 CODE 0 2106 2106 35E 1
+text75 CODE 0 438A 438A 2 1
+text76 CODE 0 3E5A 3E5A 42 1
+text77 CODE 0 3D3E 3D3E 52 1
+text78 CODE 0 42D0 42D0 14 1
+text79 CODE 0 4092 4092 2E 1
+text80 CODE 0 363E 363E 94 1
+text81 CODE 0 437A 437A 6 1
+text82 CODE 0 42A6 42A6 16 1
+text83 CODE 0 29E0 29E0 176 1
+text84 CODE 0 3A38 3A38 70 1
+idataCOMRAM CODE 0 4388 4388 2 1
+cstackCOMRAM COMRAM 1 1 1 7A 1
+cstackBANK0 BANK0 1 80 80 55 1
+cstackBANK1 BANK1 1 100 100 F8 1
+cstackBANK2 BANK2 1 23C 23C 39 1
+temp COMRAM 1 7F 7F 1 1
+bssBANK0 BANK0 1 ED ED D 1
+bssBANK2 BANK2 1 275 275 38 1
+intcode CODE 0 8 8 6 1
+smallconst SMALLCONST 0 600 600 C2 1
+idataBANK0 CODE 0 425E 425E 18 1
+idataBANK1 CODE 0 4358 4358 8 1
+idataBANK2 CODE 0 3E9C 3E9C 3C 1
+dataBANK0 BANK0 1 D5 D5 18 1
+dataBANK1 BANK1 1 1F8 1F8 8 1
+dataBANK2 BANK2 1 200 200 3C 1
+dataCOMRAM COMRAM 1 7D 7D 2 1
+bssCOMRAM COMRAM 1 7B 7B 2 1
+$/tmp/xcXCqbZJR.obj
+idloc IDLOC 0 200000 200000 8 1
+init CODE 0 E E 4 1
+reset_vec CODE 0 0 0 6 1
+config CONFIG 0 300000 300000 E 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM FA-FF 1
+RAM 2AD-5EE 1
+SFR F80-F9B 1
+SFR F9D-FD3 1
+SFR FD5-FDA 1
+SFR FE0-FE2 1
+SFR FE8-FEA 1
+SFR FF0-FFB 1
+BANK0 FA-FF 1
+BANK2 2AD-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5EE 1
+CONST 6-7 1
+CONST 12-5FF 1
+CONST 438C-7CFF 1
+STACK 2AD-5EE 1
+SMALLCONST 438C-7CFF 1
+CODE 6-7 1
+CODE 12-5FF 1
+CODE 438C-7CFF 1
+BIGRAM FA-FF 1
+BIGRAM 2AD-5EE 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 438C-7CFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug/project1.X.debug.obj
+8 intcode CODE >143:/home/carloscosta/Desktop/project1.X/main.c
+8 intcode CODE >877:/home/carloscosta/Desktop/project1.X/main.c
+3A38 text84 CODE >8:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A38 text84 CODE >13:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A3C text84 CODE >14:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A40 text84 CODE >15:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A48 text84 CODE >16:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A4C text84 CODE >18:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A50 text84 CODE >19:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A58 text84 CODE >20:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A60 text84 CODE >21:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A64 text84 CODE >22:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A66 text84 CODE >23:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A6C text84 CODE >24:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A6E text84 CODE >22:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A72 text84 CODE >27:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A7E text84 CODE >28:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A86 text84 CODE >29:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A8C text84 CODE >30:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A90 text84 CODE >32:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A96 text84 CODE >33:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+3A9E text84 CODE >34:/opt/microchip/xc8/v1.41/sources/common/awmod.c
+29E0 text83 CODE >668:/home/carloscosta/Desktop/project1.X/main.c
+29E0 text83 CODE >671:/home/carloscosta/Desktop/project1.X/main.c
+29E6 text83 CODE >672:/home/carloscosta/Desktop/project1.X/main.c
+29E8 text83 CODE >675:/home/carloscosta/Desktop/project1.X/main.c
+29F2 text83 CODE >678:/home/carloscosta/Desktop/project1.X/main.c
+29FC text83 CODE >680:/home/carloscosta/Desktop/project1.X/main.c
+29FE text83 CODE >682:/home/carloscosta/Desktop/project1.X/main.c
+2A04 text83 CODE >683:/home/carloscosta/Desktop/project1.X/main.c
+2A20 text83 CODE >684:/home/carloscosta/Desktop/project1.X/main.c
+2A28 text83 CODE >685:/home/carloscosta/Desktop/project1.X/main.c
+2A2A text83 CODE >687:/home/carloscosta/Desktop/project1.X/main.c
+2A30 text83 CODE >688:/home/carloscosta/Desktop/project1.X/main.c
+2A4C text83 CODE >689:/home/carloscosta/Desktop/project1.X/main.c
+2A54 text83 CODE >690:/home/carloscosta/Desktop/project1.X/main.c
+2A56 text83 CODE >692:/home/carloscosta/Desktop/project1.X/main.c
+2A5C text83 CODE >693:/home/carloscosta/Desktop/project1.X/main.c
+2A78 text83 CODE >694:/home/carloscosta/Desktop/project1.X/main.c
+2A88 text83 CODE >695:/home/carloscosta/Desktop/project1.X/main.c
+2A8A text83 CODE >696:/home/carloscosta/Desktop/project1.X/main.c
+2A8A text83 CODE >697:/home/carloscosta/Desktop/project1.X/main.c
+2A92 text83 CODE >698:/home/carloscosta/Desktop/project1.X/main.c
+2A9A text83 CODE >699:/home/carloscosta/Desktop/project1.X/main.c
+2A9C text83 CODE >700:/home/carloscosta/Desktop/project1.X/main.c
+2A9C text83 CODE >701:/home/carloscosta/Desktop/project1.X/main.c
+2AA4 text83 CODE >702:/home/carloscosta/Desktop/project1.X/main.c
+2AAC text83 CODE >703:/home/carloscosta/Desktop/project1.X/main.c
+2AAE text83 CODE >705:/home/carloscosta/Desktop/project1.X/main.c
+2AB4 text83 CODE >706:/home/carloscosta/Desktop/project1.X/main.c
+2AD0 text83 CODE >707:/home/carloscosta/Desktop/project1.X/main.c
+2AD2 text83 CODE >709:/home/carloscosta/Desktop/project1.X/main.c
+2AD8 text83 CODE >710:/home/carloscosta/Desktop/project1.X/main.c
+2AF4 text83 CODE >711:/home/carloscosta/Desktop/project1.X/main.c
+2AF6 text83 CODE >713:/home/carloscosta/Desktop/project1.X/main.c
+2AFC text83 CODE >714:/home/carloscosta/Desktop/project1.X/main.c
+2B06 text83 CODE >718:/home/carloscosta/Desktop/project1.X/main.c
+2B08 text83 CODE >680:/home/carloscosta/Desktop/project1.X/main.c
+2B4A text83 CODE >721:/home/carloscosta/Desktop/project1.X/main.c
+2B54 text83 CODE >722:/home/carloscosta/Desktop/project1.X/main.c
+42A6 text82 CODE >925:/home/carloscosta/Desktop/project1.X/main.c
+42A6 text82 CODE >928:/home/carloscosta/Desktop/project1.X/main.c
+42AC text82 CODE >930:/home/carloscosta/Desktop/project1.X/main.c
+42AE text82 CODE >931:/home/carloscosta/Desktop/project1.X/main.c
+42B0 text82 CODE >932:/home/carloscosta/Desktop/project1.X/main.c
+42B2 text82 CODE >933:/home/carloscosta/Desktop/project1.X/main.c
+42B4 text82 CODE >936:/home/carloscosta/Desktop/project1.X/main.c
+42B6 text82 CODE >937:/home/carloscosta/Desktop/project1.X/main.c
+42B8 text82 CODE >940:/home/carloscosta/Desktop/project1.X/main.c
+42BA text82 CODE >941:/home/carloscosta/Desktop/project1.X/main.c
+437A text81 CODE >1045:/home/carloscosta/Desktop/project1.X/main.c
+437A text81 CODE >1048:/home/carloscosta/Desktop/project1.X/main.c
+437C text81 CODE >1051:/home/carloscosta/Desktop/project1.X/main.c
+437E text81 CODE >1052:/home/carloscosta/Desktop/project1.X/main.c
+363E text80 CODE >632:/home/carloscosta/Desktop/project1.X/main.c
+363E text80 CODE >635:/home/carloscosta/Desktop/project1.X/main.c
+3640 text80 CODE >638:/home/carloscosta/Desktop/project1.X/main.c
+364A text80 CODE >640:/home/carloscosta/Desktop/project1.X/main.c
+3656 text80 CODE >642:/home/carloscosta/Desktop/project1.X/main.c
+3660 text80 CODE >643:/home/carloscosta/Desktop/project1.X/main.c
+3662 text80 CODE >644:/home/carloscosta/Desktop/project1.X/main.c
+366A text80 CODE >646:/home/carloscosta/Desktop/project1.X/main.c
+3672 text80 CODE >647:/home/carloscosta/Desktop/project1.X/main.c
+367C text80 CODE >648:/home/carloscosta/Desktop/project1.X/main.c
+368E text80 CODE >649:/home/carloscosta/Desktop/project1.X/main.c
+3692 text80 CODE >650:/home/carloscosta/Desktop/project1.X/main.c
+3694 text80 CODE >653:/home/carloscosta/Desktop/project1.X/main.c
+36A2 text80 CODE >654:/home/carloscosta/Desktop/project1.X/main.c
+36AA text80 CODE >655:/home/carloscosta/Desktop/project1.X/main.c
+36B0 text80 CODE >656:/home/carloscosta/Desktop/project1.X/main.c
+36B4 text80 CODE >657:/home/carloscosta/Desktop/project1.X/main.c
+36B6 text80 CODE >660:/home/carloscosta/Desktop/project1.X/main.c
+36C6 text80 CODE >664:/home/carloscosta/Desktop/project1.X/main.c
+36D0 text80 CODE >665:/home/carloscosta/Desktop/project1.X/main.c
+4092 text79 CODE >138:/home/carloscosta/Desktop/project1.X/USART/usart.c
+4092 text79 CODE >142:/home/carloscosta/Desktop/project1.X/USART/usart.c
+4098 text79 CODE >144:/home/carloscosta/Desktop/project1.X/USART/usart.c
+409C text79 CODE >146:/home/carloscosta/Desktop/project1.X/USART/usart.c
+40A0 text79 CODE >147:/home/carloscosta/Desktop/project1.X/USART/usart.c
+40A4 text79 CODE >148:/home/carloscosta/Desktop/project1.X/USART/usart.c
+40A8 text79 CODE >149:/home/carloscosta/Desktop/project1.X/USART/usart.c
+40A8 text79 CODE >151:/home/carloscosta/Desktop/project1.X/USART/usart.c
+40AC text79 CODE >152:/home/carloscosta/Desktop/project1.X/USART/usart.c
+40B0 text79 CODE >154:/home/carloscosta/Desktop/project1.X/USART/usart.c
+40B4 text79 CODE >155:/home/carloscosta/Desktop/project1.X/USART/usart.c
+40B8 text79 CODE >157:/home/carloscosta/Desktop/project1.X/USART/usart.c
+40BC text79 CODE >159:/home/carloscosta/Desktop/project1.X/USART/usart.c
+42D0 text78 CODE >168:/home/carloscosta/Desktop/project1.X/USART/usart.c
+42D2 text78 CODE >170:/home/carloscosta/Desktop/project1.X/USART/usart.c
+42D6 text78 CODE >172:/home/carloscosta/Desktop/project1.X/USART/usart.c
+42D8 text78 CODE >173:/home/carloscosta/Desktop/project1.X/USART/usart.c
+42DC text78 CODE >174:/home/carloscosta/Desktop/project1.X/USART/usart.c
+42DE text78 CODE >177:/home/carloscosta/Desktop/project1.X/USART/usart.c
+42E2 text78 CODE >178:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3D3E text77 CODE >8:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D3E text77 CODE >14:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D46 text77 CODE >15:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D4E text77 CODE >16:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D52 text77 CODE >17:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D54 text77 CODE >18:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D5A text77 CODE >19:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D5C text77 CODE >17:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D60 text77 CODE >22:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D66 text77 CODE >23:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D72 text77 CODE >24:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D7A text77 CODE >25:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D7C text77 CODE >27:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D82 text77 CODE >28:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D86 text77 CODE >29:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D86 text77 CODE >30:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3D8E text77 CODE >31:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3E5A text76 CODE >8:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3E5A text76 CODE >13:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3E62 text76 CODE >14:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3E66 text76 CODE >15:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3E68 text76 CODE >16:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3E6E text76 CODE >17:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3E70 text76 CODE >15:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3E74 text76 CODE >20:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3E80 text76 CODE >21:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3E88 text76 CODE >22:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3E8E text76 CODE >23:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3E92 text76 CODE >24:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3E92 text76 CODE >25:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3E9A text76 CODE >26:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+438A text75 CODE >7:/opt/microchip/xc8/v1.41/sources/common/putch.c
+438A text75 CODE >9:/opt/microchip/xc8/v1.41/sources/common/putch.c
+2106 text74 CODE >458:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+2106 text74 CODE >536:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+2108 text74 CODE >538:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+2110 text74 CODE >541:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+2174 text74 CODE >542:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+2176 text74 CODE >548:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+217A text74 CODE >635:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+217C text74 CODE >734:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+21A4 text74 CODE >740:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+21AC text74 CODE >741:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+21B4 text74 CODE >777:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+21B6 text74 CODE >778:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+2260 text74 CODE >777:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+2288 text74 CODE >635:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+22B6 text74 CODE >1259:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+22DE text74 CODE >1261:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+22E2 text74 CODE >1262:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+22E6 text74 CODE >1263:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+22EE text74 CODE >1305:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+22FA text74 CODE >1306:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+231A text74 CODE >1305:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+231E text74 CODE >1438:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+232A text74 CODE >1439:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+238E text74 CODE >1472:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+2392 text74 CODE >1474:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+2394 text74 CODE >1489:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+23D6 text74 CODE >1524:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+243A text74 CODE >1474:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+2442 text74 CODE >536:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+245A text74 CODE >1540:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+402C text73 CODE >13:/opt/microchip/xc8/v1.41/sources/common/printf.c
+402C text73 CODE >23:/opt/microchip/xc8/v1.41/sources/common/printf.c
+4034 text73 CODE >24:/opt/microchip/xc8/v1.41/sources/common/printf.c
+403C text73 CODE >25:/opt/microchip/xc8/v1.41/sources/common/printf.c
+4044 text73 CODE >26:/opt/microchip/xc8/v1.41/sources/common/printf.c
+4140 text72 CODE >8:/opt/microchip/xc8/v1.41/sources/common/assert.c
+4140 text72 CODE >10:/opt/microchip/xc8/v1.41/sources/common/assert.c
+4164 text72 CODE >11:/opt/microchip/xc8/v1.41/sources/common/assert.c
+41D4 text71 CODE >8:/opt/microchip/xc8/v1.41/sources/common/isdigit.c
+41D6 text71 CODE >14:/opt/microchip/xc8/v1.41/sources/common/isdigit.c
+4168 text70 CODE >15:/opt/microchip/xc8/v1.41/sources/common/Umul16.c
+4168 text70 CODE >37:/opt/microchip/xc8/v1.41/sources/common/Umul16.c
+4174 text70 CODE >38:/opt/microchip/xc8/v1.41/sources/common/Umul16.c
+417C text70 CODE >39:/opt/microchip/xc8/v1.41/sources/common/Umul16.c
+4184 text70 CODE >52:/opt/microchip/xc8/v1.41/sources/common/Umul16.c
+3226 text69 CODE >5:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+3226 text69 CODE >10:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+3228 text69 CODE >11:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+322C text69 CODE >10:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+324C text69 CODE >12:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+3254 text69 CODE >13:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+3258 text69 CODE >14:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+3268 text69 CODE >15:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+326C text69 CODE >17:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+327C text69 CODE >18:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+327E text69 CODE >20:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+32B8 text69 CODE >19:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+32CA text69 CODE >21:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+32D0 text69 CODE >22:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+32EA text69 CODE >23:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+32F2 text69 CODE >24:/opt/microchip/xc8/v1.41/sources/common/atoi.c
+40EC text68 CODE >8:/opt/microchip/xc8/v1.41/sources/common/memset.c
+40EC text68 CODE >18:/opt/microchip/xc8/v1.41/sources/common/memset.c
+40F4 text68 CODE >19:/opt/microchip/xc8/v1.41/sources/common/memset.c
+40F6 text68 CODE >20:/opt/microchip/xc8/v1.41/sources/common/memset.c
+4106 text68 CODE >19:/opt/microchip/xc8/v1.41/sources/common/memset.c
+3E18 text67 CODE >13:/opt/microchip/xc8/v1.41/sources/common/sprintf.c
+3E18 text67 CODE >31:/opt/microchip/xc8/v1.41/sources/common/sprintf.c
+3E20 text67 CODE >32:/opt/microchip/xc8/v1.41/sources/common/sprintf.c
+3E28 text67 CODE >33:/opt/microchip/xc8/v1.41/sources/common/sprintf.c
+3E30 text67 CODE >34:/opt/microchip/xc8/v1.41/sources/common/sprintf.c
+3E4C text67 CODE >35:/opt/microchip/xc8/v1.41/sources/common/sprintf.c
+D86 text66 CODE >9:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+D86 text66 CODE >13:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+D88 text66 CODE >15:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+DEE text66 CODE >17:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+E24 text66 CODE >19:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+E76 text66 CODE >21:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+EDC text66 CODE >23:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+F12 text66 CODE >25:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+F48 text66 CODE >27:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+FAE text66 CODE >29:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+FE4 text66 CODE >31:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+101A text66 CODE >33:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+10A8 text66 CODE >35:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+1262 text66 CODE >37:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+12EE text66 CODE >40:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+12F0 text66 CODE >13:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+134A text66 CODE >41:/home/carloscosta/Desktop/project1.X/COM_PC/serial_com.c
+3F4E text65 CODE >4:/opt/microchip/xc8/v1.41/sources/common/strlen.c
+3F4E text65 CODE >8:/opt/microchip/xc8/v1.41/sources/common/strlen.c
+3F56 text65 CODE >9:/opt/microchip/xc8/v1.41/sources/common/strlen.c
+3F58 text65 CODE >10:/opt/microchip/xc8/v1.41/sources/common/strlen.c
+3F5C text65 CODE >9:/opt/microchip/xc8/v1.41/sources/common/strlen.c
+3F6A text65 CODE >12:/opt/microchip/xc8/v1.41/sources/common/strlen.c
+4244 text64 CODE >129:/home/carloscosta/Desktop/project1.X/main.c
+4244 text64 CODE >131:/home/carloscosta/Desktop/project1.X/main.c
+4246 text64 CODE >132:/home/carloscosta/Desktop/project1.X/main.c
+4248 text64 CODE >133:/home/carloscosta/Desktop/project1.X/main.c
+424A text64 CODE >134:/home/carloscosta/Desktop/project1.X/main.c
+424C text64 CODE >135:/home/carloscosta/Desktop/project1.X/main.c
+424E text64 CODE >136:/home/carloscosta/Desktop/project1.X/main.c
+4250 text64 CODE >137:/home/carloscosta/Desktop/project1.X/main.c
+4252 text64 CODE >138:/home/carloscosta/Desktop/project1.X/main.c
+4254 text64 CODE >139:/home/carloscosta/Desktop/project1.X/main.c
+4256 text64 CODE >140:/home/carloscosta/Desktop/project1.X/main.c
+4258 text64 CODE >141:/home/carloscosta/Desktop/project1.X/main.c
+425A text64 CODE >142:/home/carloscosta/Desktop/project1.X/main.c
+425C text64 CODE >143:/home/carloscosta/Desktop/project1.X/main.c
+41B2 text63 CODE >145:/home/carloscosta/Desktop/project1.X/main.c
+41B2 text63 CODE >147:/home/carloscosta/Desktop/project1.X/main.c
+41CA text63 CODE >148:/home/carloscosta/Desktop/project1.X/main.c
+41CE text63 CODE >147:/home/carloscosta/Desktop/project1.X/main.c
+420E text62 CODE >32:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+420E text62 CODE >34:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+4220 text62 CODE >35:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+4222 text62 CODE >36:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+4226 text62 CODE >37:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3BD6 text61 CODE >47:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3BD8 text61 CODE >49:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3BDC text61 CODE >50:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3BE0 text61 CODE >54:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3BF4 text61 CODE >56:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3BF6 text61 CODE >57:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3BFA text61 CODE >59:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3C00 text61 CODE >67:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3C02 text61 CODE >68:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3C16 text61 CODE >70:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3C1A text61 CODE >71:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3C32 text61 CODE >72:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3C34 text61 CODE >77:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+2DA8 text60 CODE >425:/home/carloscosta/Desktop/project1.X/main.c
+2DAA text60 CODE >429:/home/carloscosta/Desktop/project1.X/main.c
+2DC2 text60 CODE >430:/home/carloscosta/Desktop/project1.X/main.c
+2DE0 text60 CODE >431:/home/carloscosta/Desktop/project1.X/main.c
+2DFE text60 CODE >432:/home/carloscosta/Desktop/project1.X/main.c
+2E1C text60 CODE >433:/home/carloscosta/Desktop/project1.X/main.c
+2E3A text60 CODE >434:/home/carloscosta/Desktop/project1.X/main.c
+2E58 text60 CODE >435:/home/carloscosta/Desktop/project1.X/main.c
+2E76 text60 CODE >436:/home/carloscosta/Desktop/project1.X/main.c
+2E94 text60 CODE >437:/home/carloscosta/Desktop/project1.X/main.c
+2E9A text60 CODE >439:/home/carloscosta/Desktop/project1.X/main.c
+1354 text59 CODE >725:/home/carloscosta/Desktop/project1.X/main.c
+1354 text59 CODE >729:/home/carloscosta/Desktop/project1.X/main.c
+1366 text59 CODE >730:/home/carloscosta/Desktop/project1.X/main.c
+1378 text59 CODE >731:/home/carloscosta/Desktop/project1.X/main.c
+138C text59 CODE >733:/home/carloscosta/Desktop/project1.X/main.c
+1392 text59 CODE >734:/home/carloscosta/Desktop/project1.X/main.c
+13B0 text59 CODE >737:/home/carloscosta/Desktop/project1.X/main.c
+13B2 text59 CODE >744:/home/carloscosta/Desktop/project1.X/main.c
+13D8 text59 CODE >746:/home/carloscosta/Desktop/project1.X/main.c
+13DC text59 CODE >747:/home/carloscosta/Desktop/project1.X/main.c
+13E4 text59 CODE >748:/home/carloscosta/Desktop/project1.X/main.c
+13F8 text59 CODE >749:/home/carloscosta/Desktop/project1.X/main.c
+1412 text59 CODE >745:/home/carloscosta/Desktop/project1.X/main.c
+1414 text59 CODE >753:/home/carloscosta/Desktop/project1.X/main.c
+1428 text59 CODE >754:/home/carloscosta/Desktop/project1.X/main.c
+1434 text59 CODE >756:/home/carloscosta/Desktop/project1.X/main.c
+145E text59 CODE >757:/home/carloscosta/Desktop/project1.X/main.c
+146A text59 CODE >758:/home/carloscosta/Desktop/project1.X/main.c
+1482 text59 CODE >760:/home/carloscosta/Desktop/project1.X/main.c
+1498 text59 CODE >761:/home/carloscosta/Desktop/project1.X/main.c
+14C2 text59 CODE >762:/home/carloscosta/Desktop/project1.X/main.c
+14C4 text59 CODE >773:/home/carloscosta/Desktop/project1.X/main.c
+14D0 text59 CODE >774:/home/carloscosta/Desktop/project1.X/main.c
+14DC text59 CODE >776:/home/carloscosta/Desktop/project1.X/main.c
+1500 text59 CODE >777:/home/carloscosta/Desktop/project1.X/main.c
+1516 text59 CODE >778:/home/carloscosta/Desktop/project1.X/main.c
+1518 text59 CODE >780:/home/carloscosta/Desktop/project1.X/main.c
+1524 text59 CODE >781:/home/carloscosta/Desktop/project1.X/main.c
+1530 text59 CODE >783:/home/carloscosta/Desktop/project1.X/main.c
+1554 text59 CODE >784:/home/carloscosta/Desktop/project1.X/main.c
+1558 text59 CODE >787:/home/carloscosta/Desktop/project1.X/main.c
+1564 text59 CODE >788:/home/carloscosta/Desktop/project1.X/main.c
+1570 text59 CODE >790:/home/carloscosta/Desktop/project1.X/main.c
+1594 text59 CODE >791:/home/carloscosta/Desktop/project1.X/main.c
+159C text59 CODE >794:/home/carloscosta/Desktop/project1.X/main.c
+15B8 text59 CODE >795:/home/carloscosta/Desktop/project1.X/main.c
+15BA text59 CODE >762:/home/carloscosta/Desktop/project1.X/main.c
+1610 text59 CODE >796:/home/carloscosta/Desktop/project1.X/main.c
+1628 text59 CODE >798:/home/carloscosta/Desktop/project1.X/main.c
+1652 text59 CODE >799:/home/carloscosta/Desktop/project1.X/main.c
+1654 text59 CODE >804:/home/carloscosta/Desktop/project1.X/main.c
+1654 text59 CODE >805:/home/carloscosta/Desktop/project1.X/main.c
+165C text59 CODE >806:/home/carloscosta/Desktop/project1.X/main.c
+1664 text59 CODE >807:/home/carloscosta/Desktop/project1.X/main.c
+166C text59 CODE >808:/home/carloscosta/Desktop/project1.X/main.c
+166E text59 CODE >809:/home/carloscosta/Desktop/project1.X/main.c
+166E text59 CODE >810:/home/carloscosta/Desktop/project1.X/main.c
+1676 text59 CODE >811:/home/carloscosta/Desktop/project1.X/main.c
+167E text59 CODE >812:/home/carloscosta/Desktop/project1.X/main.c
+168E text59 CODE >813:/home/carloscosta/Desktop/project1.X/main.c
+1690 text59 CODE >814:/home/carloscosta/Desktop/project1.X/main.c
+1690 text59 CODE >815:/home/carloscosta/Desktop/project1.X/main.c
+1698 text59 CODE >816:/home/carloscosta/Desktop/project1.X/main.c
+16A0 text59 CODE >817:/home/carloscosta/Desktop/project1.X/main.c
+16A2 text59 CODE >818:/home/carloscosta/Desktop/project1.X/main.c
+16A2 text59 CODE >819:/home/carloscosta/Desktop/project1.X/main.c
+16AA text59 CODE >820:/home/carloscosta/Desktop/project1.X/main.c
+16B2 text59 CODE >821:/home/carloscosta/Desktop/project1.X/main.c
+16BA text59 CODE >822:/home/carloscosta/Desktop/project1.X/main.c
+16BC text59 CODE >823:/home/carloscosta/Desktop/project1.X/main.c
+16BC text59 CODE >824:/home/carloscosta/Desktop/project1.X/main.c
+16C4 text59 CODE >825:/home/carloscosta/Desktop/project1.X/main.c
+16C6 text59 CODE >827:/home/carloscosta/Desktop/project1.X/main.c
+16E2 text59 CODE >828:/home/carloscosta/Desktop/project1.X/main.c
+16E4 text59 CODE >829:/home/carloscosta/Desktop/project1.X/main.c
+16E4 text59 CODE >830:/home/carloscosta/Desktop/project1.X/main.c
+16EC text59 CODE >831:/home/carloscosta/Desktop/project1.X/main.c
+16F4 text59 CODE >832:/home/carloscosta/Desktop/project1.X/main.c
+16FC text59 CODE >833:/home/carloscosta/Desktop/project1.X/main.c
+16FE text59 CODE >834:/home/carloscosta/Desktop/project1.X/main.c
+16FE text59 CODE >835:/home/carloscosta/Desktop/project1.X/main.c
+1706 text59 CODE >836:/home/carloscosta/Desktop/project1.X/main.c
+170E text59 CODE >837:/home/carloscosta/Desktop/project1.X/main.c
+1710 text59 CODE >838:/home/carloscosta/Desktop/project1.X/main.c
+1710 text59 CODE >839:/home/carloscosta/Desktop/project1.X/main.c
+1718 text59 CODE >840:/home/carloscosta/Desktop/project1.X/main.c
+171A text59 CODE >842:/home/carloscosta/Desktop/project1.X/main.c
+173E text59 CODE >843:/home/carloscosta/Desktop/project1.X/main.c
+175E text59 CODE >844:/home/carloscosta/Desktop/project1.X/main.c
+176E text59 CODE >845:/home/carloscosta/Desktop/project1.X/main.c
+17A2 text59 CODE >846:/home/carloscosta/Desktop/project1.X/main.c
+17A6 text59 CODE >843:/home/carloscosta/Desktop/project1.X/main.c
+17AE text59 CODE >842:/home/carloscosta/Desktop/project1.X/main.c
+17C2 text59 CODE >848:/home/carloscosta/Desktop/project1.X/main.c
+17C2 text59 CODE >849:/home/carloscosta/Desktop/project1.X/main.c
+17CA text59 CODE >850:/home/carloscosta/Desktop/project1.X/main.c
+17D2 text59 CODE >851:/home/carloscosta/Desktop/project1.X/main.c
+17DA text59 CODE >852:/home/carloscosta/Desktop/project1.X/main.c
+17E2 text59 CODE >853:/home/carloscosta/Desktop/project1.X/main.c
+17EA text59 CODE >854:/home/carloscosta/Desktop/project1.X/main.c
+17EC text59 CODE >856:/home/carloscosta/Desktop/project1.X/main.c
+1808 text59 CODE >858:/home/carloscosta/Desktop/project1.X/main.c
+180A text59 CODE >803:/home/carloscosta/Desktop/project1.X/main.c
+1860 text59 CODE >861:/home/carloscosta/Desktop/project1.X/main.c
+187C text59 CODE >862:/home/carloscosta/Desktop/project1.X/main.c
+1888 text59 CODE >863:/home/carloscosta/Desktop/project1.X/main.c
+18A2 text59 CODE >864:/home/carloscosta/Desktop/project1.X/main.c
+18A6 text59 CODE >865:/home/carloscosta/Desktop/project1.X/main.c
+18C0 text59 CODE >862:/home/carloscosta/Desktop/project1.X/main.c
+18EA text59 CODE >867:/home/carloscosta/Desktop/project1.X/main.c
+18EE text59 CODE >870:/home/carloscosta/Desktop/project1.X/main.c
+18F0 text59 CODE >873:/home/carloscosta/Desktop/project1.X/main.c
+18F2 text59 CODE >874:/home/carloscosta/Desktop/project1.X/main.c
+434E text58 CODE >364:/home/carloscosta/Desktop/project1.X/main.c
+434E text58 CODE >365:/home/carloscosta/Desktop/project1.X/main.c
+4356 text58 CODE >366:/home/carloscosta/Desktop/project1.X/main.c
+4374 text57 CODE >360:/home/carloscosta/Desktop/project1.X/main.c
+4374 text57 CODE >361:/home/carloscosta/Desktop/project1.X/main.c
+4378 text57 CODE >362:/home/carloscosta/Desktop/project1.X/main.c
+32F4 text56 CODE >482:/home/carloscosta/Desktop/project1.X/main.c
+32F4 text56 CODE >485:/home/carloscosta/Desktop/project1.X/main.c
+3306 text56 CODE >491:/home/carloscosta/Desktop/project1.X/main.c
+3308 text56 CODE >493:/home/carloscosta/Desktop/project1.X/main.c
+3310 text56 CODE >494:/home/carloscosta/Desktop/project1.X/main.c
+3318 text56 CODE >495:/home/carloscosta/Desktop/project1.X/main.c
+3320 text56 CODE >496:/home/carloscosta/Desktop/project1.X/main.c
+3328 text56 CODE >497:/home/carloscosta/Desktop/project1.X/main.c
+3330 text56 CODE >500:/home/carloscosta/Desktop/project1.X/main.c
+334C text56 CODE >501:/home/carloscosta/Desktop/project1.X/main.c
+3356 text56 CODE >502:/home/carloscosta/Desktop/project1.X/main.c
+3366 text56 CODE >503:/home/carloscosta/Desktop/project1.X/main.c
+336A text56 CODE >504:/home/carloscosta/Desktop/project1.X/main.c
+337C text56 CODE >501:/home/carloscosta/Desktop/project1.X/main.c
+33A0 text56 CODE >506:/home/carloscosta/Desktop/project1.X/main.c
+33A4 text56 CODE >509:/home/carloscosta/Desktop/project1.X/main.c
+33A6 text56 CODE >512:/home/carloscosta/Desktop/project1.X/main.c
+33A8 text56 CODE >513:/home/carloscosta/Desktop/project1.X/main.c
+4342 text55 CODE >63:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+4342 text55 CODE >65:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+436E text54 CODE >81:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+436E text54 CODE >83:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+4370 text54 CODE >84:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+4372 text54 CODE >85:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+4384 text53 CODE >99:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+4384 text53 CODE >101:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+4386 text53 CODE >102:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+4118 text52 CODE >164:/home/carloscosta/Desktop/project1.X/main.c
+4118 text52 CODE >166:/home/carloscosta/Desktop/project1.X/main.c
+3C36 text51 CODE >23:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+3C38 text51 CODE >27:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+3C3C text51 CODE >28:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+3C40 text51 CODE >30:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+3C48 text51 CODE >32:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+3C5E text51 CODE >35:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+3C86 text51 CODE >37:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+3C8A text51 CODE >39:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+3C8C text51 CODE >40:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+3C8E text51 CODE >41:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+3C90 text51 CODE >42:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+3C90 text51 CODE >43:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+3C92 text51 CODE >44:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+4328 text50 CODE >117:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+4328 text50 CODE >119:/home/carloscosta/Desktop/project1.X/ADC/adc.c
+3762 text49 CODE >8:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+3762 text49 CODE >14:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+3766 text49 CODE >15:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+376A text49 CODE >16:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+3772 text49 CODE >17:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+3776 text49 CODE >19:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+377A text49 CODE >20:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+3782 text49 CODE >21:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+3786 text49 CODE >23:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+378E text49 CODE >24:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+3796 text49 CODE >25:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+379A text49 CODE >26:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+379C text49 CODE >27:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+37A2 text49 CODE >28:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+37A4 text49 CODE >26:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+37A8 text49 CODE >31:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+37AE text49 CODE >32:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+37BA text49 CODE >33:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+37C2 text49 CODE >34:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+37C4 text49 CODE >36:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+37CA text49 CODE >37:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+37CE text49 CODE >39:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+37D4 text49 CODE >40:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+37DC text49 CODE >41:/opt/microchip/xc8/v1.41/sources/common/awdiv.c
+33AA text48 CODE >62:/opt/microchip/xc8/v1.41/sources/common/float.c
+33AA text48 CODE >64:/opt/microchip/xc8/v1.41/sources/common/float.c
+33BA text48 CODE >65:/opt/microchip/xc8/v1.41/sources/common/float.c
+33C8 text48 CODE >67:/opt/microchip/xc8/v1.41/sources/common/float.c
+33CA text48 CODE >68:/opt/microchip/xc8/v1.41/sources/common/float.c
+33D2 text48 CODE >66:/opt/microchip/xc8/v1.41/sources/common/float.c
+33F0 text48 CODE >71:/opt/microchip/xc8/v1.41/sources/common/float.c
+33F2 text48 CODE >72:/opt/microchip/xc8/v1.41/sources/common/float.c
+33FE text48 CODE >73:/opt/microchip/xc8/v1.41/sources/common/float.c
+3406 text48 CODE >70:/opt/microchip/xc8/v1.41/sources/common/float.c
+3424 text48 CODE >76:/opt/microchip/xc8/v1.41/sources/common/float.c
+3426 text48 CODE >77:/opt/microchip/xc8/v1.41/sources/common/float.c
+342E text48 CODE >75:/opt/microchip/xc8/v1.41/sources/common/float.c
+3438 text48 CODE >79:/opt/microchip/xc8/v1.41/sources/common/float.c
+343A text48 CODE >80:/opt/microchip/xc8/v1.41/sources/common/float.c
+343C text48 CODE >81:/opt/microchip/xc8/v1.41/sources/common/float.c
+3440 text48 CODE >82:/opt/microchip/xc8/v1.41/sources/common/float.c
+3444 text48 CODE >83:/opt/microchip/xc8/v1.41/sources/common/float.c
+3448 text48 CODE >84:/opt/microchip/xc8/v1.41/sources/common/float.c
+344A text48 CODE >85:/opt/microchip/xc8/v1.41/sources/common/float.c
+3F88 text47 CODE >32:/opt/microchip/xc8/v1.41/sources/common/awtoft.c
+3F88 text47 CODE >36:/opt/microchip/xc8/v1.41/sources/common/awtoft.c
+3F8C text47 CODE >37:/opt/microchip/xc8/v1.41/sources/common/awtoft.c
+3F90 text47 CODE >38:/opt/microchip/xc8/v1.41/sources/common/awtoft.c
+3F98 text47 CODE >39:/opt/microchip/xc8/v1.41/sources/common/awtoft.c
+3F9C text47 CODE >41:/opt/microchip/xc8/v1.41/sources/common/awtoft.c
+38D6 text46 CODE >42:/opt/microchip/xc8/v1.41/sources/common/altoft.c
+38D6 text46 CODE >45:/opt/microchip/xc8/v1.41/sources/common/altoft.c
+38DA text46 CODE >46:/opt/microchip/xc8/v1.41/sources/common/altoft.c
+38DE text46 CODE >47:/opt/microchip/xc8/v1.41/sources/common/altoft.c
+38E2 text46 CODE >48:/opt/microchip/xc8/v1.41/sources/common/altoft.c
+38F2 text46 CODE >49:/opt/microchip/xc8/v1.41/sources/common/altoft.c
+38F6 text46 CODE >52:/opt/microchip/xc8/v1.41/sources/common/altoft.c
+38F8 text46 CODE >53:/opt/microchip/xc8/v1.41/sources/common/altoft.c
+3902 text46 CODE >54:/opt/microchip/xc8/v1.41/sources/common/altoft.c
+3904 text46 CODE >52:/opt/microchip/xc8/v1.41/sources/common/altoft.c
+3928 text46 CODE >56:/opt/microchip/xc8/v1.41/sources/common/altoft.c
+2834 text45 CODE >86:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+2834 text45 CODE >90:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+2848 text45 CODE >91:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+285C text45 CODE >92:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+2878 text45 CODE >93:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+2886 text45 CODE >94:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+28A2 text45 CODE >95:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+28B0 text45 CODE >96:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+28B4 text45 CODE >97:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+28B6 text45 CODE >98:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+28B8 text45 CODE >99:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+28BA text45 CODE >100:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+28BC text45 CODE >101:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+28BE text45 CODE >102:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+28CA text45 CODE >103:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+28CC text45 CODE >104:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+28D8 text45 CODE >106:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+28E0 text45 CODE >110:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+28E8 text45 CODE >111:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+28EA text45 CODE >112:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+2902 text45 CODE >114:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+290A text45 CODE >115:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+290C text45 CODE >113:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+2916 text45 CODE >117:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+291E text45 CODE >121:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+2926 text45 CODE >122:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+2928 text45 CODE >123:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+2940 text45 CODE >125:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+2948 text45 CODE >126:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+294A text45 CODE >124:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+2952 text45 CODE >129:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+2956 text45 CODE >131:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+2962 text45 CODE >132:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+296E text45 CODE >133:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+296E text45 CODE >134:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+2972 text45 CODE >136:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+297E text45 CODE >137:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+298A text45 CODE >139:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+298E text45 CODE >140:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+299A text45 CODE >141:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+299E text45 CODE >142:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+29AA text45 CODE >143:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+29B6 text45 CODE >144:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+29BA text45 CODE >146:/opt/microchip/xc8/v1.41/sources/common/ftadd.c
+36D2 text44 CODE >4:/opt/microchip/xc8/v1.41/sources/common/ftge.c
+36D2 text44 CODE >6:/opt/microchip/xc8/v1.41/sources/common/ftge.c
+36D6 text44 CODE >7:/opt/microchip/xc8/v1.41/sources/common/ftge.c
+3702 text44 CODE >8:/opt/microchip/xc8/v1.41/sources/common/ftge.c
+3706 text44 CODE >9:/opt/microchip/xc8/v1.41/sources/common/ftge.c
+3732 text44 CODE >10:/opt/microchip/xc8/v1.41/sources/common/ftge.c
+373E text44 CODE >11:/opt/microchip/xc8/v1.41/sources/common/ftge.c
+374A text44 CODE >12:/opt/microchip/xc8/v1.41/sources/common/ftge.c
+2E9E text43 CODE >44:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2E9E text43 CODE >49:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2EB8 text43 CODE >50:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2ECA text43 CODE >51:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2EF0 text43 CODE >52:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2EF2 text43 CODE >53:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2EFE text43 CODE >54:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F0C text43 CODE >55:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F10 text43 CODE >56:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F14 text43 CODE >57:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F1E text43 CODE >58:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F30 text43 CODE >60:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F3A text43 CODE >61:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F3E text43 CODE >62:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F40 text43 CODE >63:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F46 text43 CODE >64:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F58 text43 CODE >66:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F62 text43 CODE >67:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F64 text43 CODE >65:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F6A text43 CODE >70:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F70 text43 CODE >71:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+2F80 text43 CODE >72:/opt/microchip/xc8/v1.41/sources/common/fttol.c
+385E text42 CODE >254:/opt/microchip/xc8/v1.41/sources/common/frexp.c
+385E text42 CODE >256:/opt/microchip/xc8/v1.41/sources/common/frexp.c
+3868 text42 CODE >257:/opt/microchip/xc8/v1.41/sources/common/frexp.c
+3878 text42 CODE >258:/opt/microchip/xc8/v1.41/sources/common/frexp.c
+387A text42 CODE >261:/opt/microchip/xc8/v1.41/sources/common/frexp.c
+3898 text42 CODE >262:/opt/microchip/xc8/v1.41/sources/common/frexp.c
+38B4 text42 CODE >263:/opt/microchip/xc8/v1.41/sources/common/frexp.c
+38C4 text42 CODE >268:/opt/microchip/xc8/v1.41/sources/common/frexp.c
+38D2 text42 CODE >269:/opt/microchip/xc8/v1.41/sources/common/frexp.c
+3076 text41 CODE >13:/opt/microchip/xc8/v1.41/sources/common/floor.c
+3076 text41 CODE >18:/opt/microchip/xc8/v1.41/sources/common/floor.c
+308E text41 CODE >19:/opt/microchip/xc8/v1.41/sources/common/floor.c
+3092 text41 CODE >20:/opt/microchip/xc8/v1.41/sources/common/floor.c
+3096 text41 CODE >21:/opt/microchip/xc8/v1.41/sources/common/floor.c
+30A4 text41 CODE >22:/opt/microchip/xc8/v1.41/sources/common/floor.c
+30B2 text41 CODE >24:/opt/microchip/xc8/v1.41/sources/common/floor.c
+30BE text41 CODE >25:/opt/microchip/xc8/v1.41/sources/common/floor.c
+30CC text41 CODE >26:/opt/microchip/xc8/v1.41/sources/common/floor.c
+30FC text41 CODE >27:/opt/microchip/xc8/v1.41/sources/common/floor.c
+311C text41 CODE >28:/opt/microchip/xc8/v1.41/sources/common/floor.c
+3146 text41 CODE >29:/opt/microchip/xc8/v1.41/sources/common/floor.c
+3152 text41 CODE >30:/opt/microchip/xc8/v1.41/sources/common/floor.c
+3458 text40 CODE >368:/home/carloscosta/Desktop/project1.X/main.c
+3458 text40 CODE >374:/home/carloscosta/Desktop/project1.X/main.c
+3466 text40 CODE >375:/home/carloscosta/Desktop/project1.X/main.c
+347A text40 CODE >376:/home/carloscosta/Desktop/project1.X/main.c
+347E text40 CODE >377:/home/carloscosta/Desktop/project1.X/main.c
+3488 text40 CODE >378:/home/carloscosta/Desktop/project1.X/main.c
+3494 text40 CODE >379:/home/carloscosta/Desktop/project1.X/main.c
+3498 text40 CODE >381:/home/carloscosta/Desktop/project1.X/main.c
+34C4 text40 CODE >382:/home/carloscosta/Desktop/project1.X/main.c
+34F8 text40 CODE >383:/home/carloscosta/Desktop/project1.X/main.c
+2464 text39 CODE >387:/home/carloscosta/Desktop/project1.X/main.c
+2464 text39 CODE >391:/home/carloscosta/Desktop/project1.X/main.c
+247C text39 CODE >392:/home/carloscosta/Desktop/project1.X/main.c
+249A text39 CODE >393:/home/carloscosta/Desktop/project1.X/main.c
+24B8 text39 CODE >394:/home/carloscosta/Desktop/project1.X/main.c
+24D6 text39 CODE >395:/home/carloscosta/Desktop/project1.X/main.c
+24F4 text39 CODE >396:/home/carloscosta/Desktop/project1.X/main.c
+2512 text39 CODE >397:/home/carloscosta/Desktop/project1.X/main.c
+2530 text39 CODE >398:/home/carloscosta/Desktop/project1.X/main.c
+2550 text39 CODE >399:/home/carloscosta/Desktop/project1.X/main.c
+2556 text39 CODE >400:/home/carloscosta/Desktop/project1.X/main.c
+255A text39 CODE >401:/home/carloscosta/Desktop/project1.X/main.c
+2572 text39 CODE >402:/home/carloscosta/Desktop/project1.X/main.c
+2590 text39 CODE >403:/home/carloscosta/Desktop/project1.X/main.c
+25AE text39 CODE >404:/home/carloscosta/Desktop/project1.X/main.c
+25CC text39 CODE >405:/home/carloscosta/Desktop/project1.X/main.c
+25EA text39 CODE >406:/home/carloscosta/Desktop/project1.X/main.c
+2608 text39 CODE >407:/home/carloscosta/Desktop/project1.X/main.c
+2626 text39 CODE >408:/home/carloscosta/Desktop/project1.X/main.c
+2646 text39 CODE >409:/home/carloscosta/Desktop/project1.X/main.c
+264C text39 CODE >411:/home/carloscosta/Desktop/project1.X/main.c
+18F4 text38 CODE >519:/home/carloscosta/Desktop/project1.X/main.c
+18F4 text38 CODE >524:/home/carloscosta/Desktop/project1.X/main.c
+18F8 text38 CODE >525:/home/carloscosta/Desktop/project1.X/main.c
+18FC text38 CODE >526:/home/carloscosta/Desktop/project1.X/main.c
+18FE text38 CODE >529:/home/carloscosta/Desktop/project1.X/main.c
+1936 text38 CODE >532:/home/carloscosta/Desktop/project1.X/main.c
+193C text38 CODE >533:/home/carloscosta/Desktop/project1.X/main.c
+1942 text38 CODE >534:/home/carloscosta/Desktop/project1.X/main.c
+1948 text38 CODE >535:/home/carloscosta/Desktop/project1.X/main.c
+194E text38 CODE >536:/home/carloscosta/Desktop/project1.X/main.c
+195A text38 CODE >537:/home/carloscosta/Desktop/project1.X/main.c
+1966 text38 CODE >540:/home/carloscosta/Desktop/project1.X/main.c
+196E text38 CODE >541:/home/carloscosta/Desktop/project1.X/main.c
+199C text38 CODE >542:/home/carloscosta/Desktop/project1.X/main.c
+19C2 text38 CODE >543:/home/carloscosta/Desktop/project1.X/main.c
+19E2 text38 CODE >546:/home/carloscosta/Desktop/project1.X/main.c
+19F8 text38 CODE >548:/home/carloscosta/Desktop/project1.X/main.c
+1A06 text38 CODE >550:/home/carloscosta/Desktop/project1.X/main.c
+1A12 text38 CODE >551:/home/carloscosta/Desktop/project1.X/main.c
+1A1C text38 CODE >553:/home/carloscosta/Desktop/project1.X/main.c
+1A38 text38 CODE >554:/home/carloscosta/Desktop/project1.X/main.c
+1A42 text38 CODE >555:/home/carloscosta/Desktop/project1.X/main.c
+1A4A text38 CODE >556:/home/carloscosta/Desktop/project1.X/main.c
+1A66 text38 CODE >557:/home/carloscosta/Desktop/project1.X/main.c
+1A70 text38 CODE >558:/home/carloscosta/Desktop/project1.X/main.c
+1A78 text38 CODE >559:/home/carloscosta/Desktop/project1.X/main.c
+1A94 text38 CODE >560:/home/carloscosta/Desktop/project1.X/main.c
+1A9E text38 CODE >561:/home/carloscosta/Desktop/project1.X/main.c
+1AA6 text38 CODE >562:/home/carloscosta/Desktop/project1.X/main.c
+1AC2 text38 CODE >563:/home/carloscosta/Desktop/project1.X/main.c
+1ACC text38 CODE >564:/home/carloscosta/Desktop/project1.X/main.c
+1AD4 text38 CODE >565:/home/carloscosta/Desktop/project1.X/main.c
+1AD4 text38 CODE >567:/home/carloscosta/Desktop/project1.X/main.c
+1AF0 text38 CODE >568:/home/carloscosta/Desktop/project1.X/main.c
+1B0A text38 CODE >569:/home/carloscosta/Desktop/project1.X/main.c
+1B2E text38 CODE >570:/home/carloscosta/Desktop/project1.X/main.c
+1B5A text38 CODE >571:/home/carloscosta/Desktop/project1.X/main.c
+1B86 text38 CODE >572:/home/carloscosta/Desktop/project1.X/main.c
+1BB2 text38 CODE >573:/home/carloscosta/Desktop/project1.X/main.c
+1BDE text38 CODE >567:/home/carloscosta/Desktop/project1.X/main.c
+1BEC text38 CODE >579:/home/carloscosta/Desktop/project1.X/main.c
+1C00 text38 CODE >581:/home/carloscosta/Desktop/project1.X/main.c
+1C1C text38 CODE >583:/home/carloscosta/Desktop/project1.X/main.c
+1C26 text38 CODE >584:/home/carloscosta/Desktop/project1.X/main.c
+1C30 text38 CODE >585:/home/carloscosta/Desktop/project1.X/main.c
+1C44 text38 CODE >587:/home/carloscosta/Desktop/project1.X/main.c
+1C48 text38 CODE >589:/home/carloscosta/Desktop/project1.X/main.c
+1C56 text38 CODE >590:/home/carloscosta/Desktop/project1.X/main.c
+1C72 text38 CODE >592:/home/carloscosta/Desktop/project1.X/main.c
+1C7C text38 CODE >593:/home/carloscosta/Desktop/project1.X/main.c
+1C86 text38 CODE >594:/home/carloscosta/Desktop/project1.X/main.c
+1C9A text38 CODE >596:/home/carloscosta/Desktop/project1.X/main.c
+1C9E text38 CODE >598:/home/carloscosta/Desktop/project1.X/main.c
+1CAC text38 CODE >602:/home/carloscosta/Desktop/project1.X/main.c
+1CBE text38 CODE >604:/home/carloscosta/Desktop/project1.X/main.c
+1CCC text38 CODE >605:/home/carloscosta/Desktop/project1.X/main.c
+1CD2 text38 CODE >606:/home/carloscosta/Desktop/project1.X/main.c
+1CDC text38 CODE >608:/home/carloscosta/Desktop/project1.X/main.c
+1CEE text38 CODE >610:/home/carloscosta/Desktop/project1.X/main.c
+1CFC text38 CODE >611:/home/carloscosta/Desktop/project1.X/main.c
+1D02 text38 CODE >612:/home/carloscosta/Desktop/project1.X/main.c
+1D0C text38 CODE >616:/home/carloscosta/Desktop/project1.X/main.c
+1D1A text38 CODE >617:/home/carloscosta/Desktop/project1.X/main.c
+1D24 text38 CODE >618:/home/carloscosta/Desktop/project1.X/main.c
+1D2E text38 CODE >622:/home/carloscosta/Desktop/project1.X/main.c
+1D44 text38 CODE >623:/home/carloscosta/Desktop/project1.X/main.c
+1D4E text38 CODE >624:/home/carloscosta/Desktop/project1.X/main.c
+1D4E text38 CODE >627:/home/carloscosta/Desktop/project1.X/main.c
+1D58 text38 CODE >629:/home/carloscosta/Desktop/project1.X/main.c
+35A4 intcode_body CODE >877:/home/carloscosta/Desktop/project1.X/main.c
+35DE intcode_body CODE >879:/home/carloscosta/Desktop/project1.X/main.c
+35E8 intcode_body CODE >880:/home/carloscosta/Desktop/project1.X/main.c
+35F2 intcode_body CODE >881:/home/carloscosta/Desktop/project1.X/main.c
+35FC intcode_body CODE >882:/home/carloscosta/Desktop/project1.X/main.c
+3602 intcode_body CODE >883:/home/carloscosta/Desktop/project1.X/main.c
+422A text36 CODE >129:/home/carloscosta/Desktop/project1.X/main.c
+422A text36 CODE >131:/home/carloscosta/Desktop/project1.X/main.c
+422C text36 CODE >132:/home/carloscosta/Desktop/project1.X/main.c
+422E text36 CODE >133:/home/carloscosta/Desktop/project1.X/main.c
+4230 text36 CODE >134:/home/carloscosta/Desktop/project1.X/main.c
+4232 text36 CODE >135:/home/carloscosta/Desktop/project1.X/main.c
+4234 text36 CODE >136:/home/carloscosta/Desktop/project1.X/main.c
+4236 text36 CODE >137:/home/carloscosta/Desktop/project1.X/main.c
+4238 text36 CODE >138:/home/carloscosta/Desktop/project1.X/main.c
+423A text36 CODE >139:/home/carloscosta/Desktop/project1.X/main.c
+423C text36 CODE >140:/home/carloscosta/Desktop/project1.X/main.c
+423E text36 CODE >141:/home/carloscosta/Desktop/project1.X/main.c
+4240 text36 CODE >142:/home/carloscosta/Desktop/project1.X/main.c
+4242 text36 CODE >143:/home/carloscosta/Desktop/project1.X/main.c
+40C0 text35 CODE >145:/home/carloscosta/Desktop/project1.X/main.c
+40C0 text35 CODE >147:/home/carloscosta/Desktop/project1.X/main.c
+40E0 text35 CODE >148:/home/carloscosta/Desktop/project1.X/main.c
+40E4 text35 CODE >147:/home/carloscosta/Desktop/project1.X/main.c
+3F14 text34 CODE >13:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F14 text34 CODE >15:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F16 text34 CODE >16:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F18 text34 CODE >17:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F1C text34 CODE >18:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F1E text34 CODE >19:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F22 text34 CODE >37:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F26 text34 CODE >40:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F28 text34 CODE >41:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F2C text34 CODE >42:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F2E text34 CODE >43:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F32 text34 CODE >44:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F34 text34 CODE >45:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F36 text34 CODE >46:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F38 text34 CODE >47:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F3A text34 CODE >48:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F3A text34 CODE >50:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F3C text34 CODE >51:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F40 text34 CODE >52:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F42 text34 CODE >53:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F46 text34 CODE >54:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F48 text34 CODE >55:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+3F4A text34 CODE >56:/home/carloscosta/Desktop/project1.X/XLCD/busyxlcd.c
+394E text33 CODE >15:/opt/microchip/xc8/v1.41/sources/common/Umul32.c
+394E text33 CODE >119:/opt/microchip/xc8/v1.41/sources/common/Umul32.c
+3960 text33 CODE >121:/opt/microchip/xc8/v1.41/sources/common/Umul32.c
+3966 text33 CODE >122:/opt/microchip/xc8/v1.41/sources/common/Umul32.c
+3986 text33 CODE >123:/opt/microchip/xc8/v1.41/sources/common/Umul32.c
+3992 text33 CODE >124:/opt/microchip/xc8/v1.41/sources/common/Umul32.c
+399E text33 CODE >125:/opt/microchip/xc8/v1.41/sources/common/Umul32.c
+39B2 text33 CODE >128:/opt/microchip/xc8/v1.41/sources/common/Umul32.c
+39C2 text33 CODE >129:/opt/microchip/xc8/v1.41/sources/common/Umul32.c
+3C94 text32 CODE >123:/home/carloscosta/Desktop/project1.X/main.c
+3C94 text32 CODE >126:/home/carloscosta/Desktop/project1.X/main.c
+428E text31 CODE >152:/home/carloscosta/Desktop/project1.X/main.c
+428E text31 CODE >154:/home/carloscosta/Desktop/project1.X/main.c
+4276 text30 CODE >158:/home/carloscosta/Desktop/project1.X/main.c
+4276 text30 CODE >160:/home/carloscosta/Desktop/project1.X/main.c
+3B10 text29 CODE >15:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B14 text29 CODE >34:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B18 text29 CODE >35:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B1C text29 CODE >36:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B46 text29 CODE >38:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B48 text29 CODE >39:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B4A text29 CODE >40:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B4E text29 CODE >41:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B50 text29 CODE >42:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B54 text29 CODE >43:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B56 text29 CODE >48:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B5A text29 CODE >49:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B62 text29 CODE >51:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B66 text29 CODE >52:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B68 text29 CODE >53:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B6C text29 CODE >54:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3B6E text29 CODE >58:/home/carloscosta/Desktop/project1.X/XLCD/setddram.c
+3DD4 text28 CODE >15:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3DD8 text28 CODE >34:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3DDC text28 CODE >35:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3DE0 text28 CODE >36:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3DEA text28 CODE >38:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3DEC text28 CODE >39:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3DEE text28 CODE >40:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3DF2 text28 CODE >41:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3DF4 text28 CODE >42:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3DF8 text28 CODE >43:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3DFA text28 CODE >48:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3DFE text28 CODE >49:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3E06 text28 CODE >51:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3E0A text28 CODE >52:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3E0C text28 CODE >53:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3E10 text28 CODE >54:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3E12 text28 CODE >58:/home/carloscosta/Desktop/project1.X/XLCD/wcmdxlcd.c
+3154 text27 CODE >21:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3158 text27 CODE >33:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+315C text27 CODE >34:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3160 text27 CODE >37:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3162 text27 CODE >38:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3164 text27 CODE >39:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3166 text27 CODE >40:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3168 text27 CODE >41:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+316A text27 CODE >42:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+316C text27 CODE >45:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3170 text27 CODE >57:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3174 text27 CODE >58:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3178 text27 CODE >60:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+317C text27 CODE >63:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+317E text27 CODE >64:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3182 text27 CODE >65:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3184 text27 CODE >68:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3188 text27 CODE >78:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+318C text27 CODE >80:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3190 text27 CODE >83:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3192 text27 CODE >84:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3196 text27 CODE >85:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3198 text27 CODE >88:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+319C text27 CODE >98:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31A0 text27 CODE >100:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31A4 text27 CODE >103:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31A6 text27 CODE >104:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31AA text27 CODE >105:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31AC text27 CODE >109:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31B0 text27 CODE >119:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31B4 text27 CODE >120:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31B6 text27 CODE >123:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31B8 text27 CODE >124:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31BC text27 CODE >125:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31BE text27 CODE >134:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31C2 text27 CODE >139:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31CC text27 CODE >140:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31D4 text27 CODE >144:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31DE text27 CODE >145:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31E4 text27 CODE >146:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31EE text27 CODE >147:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31F4 text27 CODE >150:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+31FE text27 CODE >151:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3204 text27 CODE >154:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+320E text27 CODE >156:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+3214 text27 CODE >159:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+321E text27 CODE >160:/home/carloscosta/Desktop/project1.X/XLCD/openxlcd.c
+4318 text26 CODE >895:/home/carloscosta/Desktop/project1.X/main.c
+4318 text26 CODE >897:/home/carloscosta/Desktop/project1.X/main.c
+431C text26 CODE >898:/home/carloscosta/Desktop/project1.X/main.c
+431E text26 CODE >899:/home/carloscosta/Desktop/project1.X/main.c
+4320 text26 CODE >900:/home/carloscosta/Desktop/project1.X/main.c
+4326 text26 CODE >902:/home/carloscosta/Desktop/project1.X/main.c
+4380 text25 CODE >912:/home/carloscosta/Desktop/project1.X/main.c
+4380 text25 CODE >914:/home/carloscosta/Desktop/project1.X/main.c
+4382 text25 CODE >915:/home/carloscosta/Desktop/project1.X/main.c
+4336 text24 CODE >904:/home/carloscosta/Desktop/project1.X/main.c
+4336 text24 CODE >905:/home/carloscosta/Desktop/project1.X/main.c
+4338 text24 CODE >906:/home/carloscosta/Desktop/project1.X/main.c
+433A text24 CODE >907:/home/carloscosta/Desktop/project1.X/main.c
+433C text24 CODE >908:/home/carloscosta/Desktop/project1.X/main.c
+433E text24 CODE >909:/home/carloscosta/Desktop/project1.X/main.c
+4340 text24 CODE >910:/home/carloscosta/Desktop/project1.X/main.c
+418E text23 CODE >12:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+4192 text23 CODE >14:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+4196 text23 CODE >15:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+419A text23 CODE >16:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+419E text23 CODE >17:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+41A4 text23 CODE >18:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+41AA text23 CODE >20:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+41AC text23 CODE >21:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+41AE text23 CODE >22:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+41B0 text23 CODE >24:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+42F6 text22 CODE >960:/home/carloscosta/Desktop/project1.X/main.c
+42F6 text22 CODE >961:/home/carloscosta/Desktop/project1.X/main.c
+4302 text22 CODE >962:/home/carloscosta/Desktop/project1.X/main.c
+4306 text22 CODE >963:/home/carloscosta/Desktop/project1.X/main.c
+39C4 text21 CODE >74:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39C8 text21 CODE >76:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39CC text21 CODE >77:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39D0 text21 CODE >79:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39D4 text21 CODE >80:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39D6 text21 CODE >82:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39DC text21 CODE >84:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39DE text21 CODE >85:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39E0 text21 CODE >88:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39E4 text21 CODE >89:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39E6 text21 CODE >91:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39EC text21 CODE >92:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39F0 text21 CODE >93:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39F0 text21 CODE >94:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39F2 text21 CODE >96:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39F6 text21 CODE >97:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39F8 text21 CODE >99:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39FA text21 CODE >101:/home/carloscosta/Desktop/project1.X/USART/usart.c
+39FE text21 CODE >102:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A00 text21 CODE >104:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A06 text21 CODE >105:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A0A text21 CODE >106:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A0A text21 CODE >107:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A0C text21 CODE >109:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A0E text21 CODE >111:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A14 text21 CODE >112:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A18 text21 CODE >113:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A18 text21 CODE >114:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A1A text21 CODE >116:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A1E text21 CODE >117:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A24 text21 CODE >119:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A26 text21 CODE >120:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A28 text21 CODE >122:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A2C text21 CODE >123:/home/carloscosta/Desktop/project1.X/USART/usart.c
+3A34 text21 CODE >124:/home/carloscosta/Desktop/project1.X/USART/usart.c
+42E4 text20 CODE >965:/home/carloscosta/Desktop/project1.X/main.c
+42E4 text20 CODE >972:/home/carloscosta/Desktop/project1.X/main.c
+42F4 text20 CODE >973:/home/carloscosta/Desktop/project1.X/main.c
+3FF6 text19 CODE >15:/opt/microchip/xc8/v1.41/sources/common/Umul16.c
+3FF6 text19 CODE >37:/opt/microchip/xc8/v1.41/sources/common/Umul16.c
+4006 text19 CODE >38:/opt/microchip/xc8/v1.41/sources/common/Umul16.c
+4014 text19 CODE >39:/opt/microchip/xc8/v1.41/sources/common/Umul16.c
+4022 text19 CODE >52:/opt/microchip/xc8/v1.41/sources/common/Umul16.c
+4308 text18 CODE >917:/home/carloscosta/Desktop/project1.X/main.c
+4308 text18 CODE >918:/home/carloscosta/Desktop/project1.X/main.c
+430C text18 CODE >919:/home/carloscosta/Desktop/project1.X/main.c
+430E text18 CODE >920:/home/carloscosta/Desktop/project1.X/main.c
+4312 text18 CODE >921:/home/carloscosta/Desktop/project1.X/main.c
+4316 text18 CODE >923:/home/carloscosta/Desktop/project1.X/main.c
+3D90 text17 CODE >18:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3D94 text17 CODE >37:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3D98 text17 CODE >38:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3D9C text17 CODE >39:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3DA6 text17 CODE >41:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3DA8 text17 CODE >42:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3DAA text17 CODE >43:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3DAE text17 CODE >44:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3DB0 text17 CODE >45:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3DB4 text17 CODE >46:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3DB6 text17 CODE >51:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3DBA text17 CODE >52:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3DC2 text17 CODE >54:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3DC6 text17 CODE >55:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3DC8 text17 CODE >56:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3DCC text17 CODE >57:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3DCE text17 CODE >61:/home/carloscosta/Desktop/project1.X/XLCD/writdata.c
+3FC0 text16 CODE >18:/home/carloscosta/Desktop/project1.X/XLCD/putrxlcd.c
+3FC0 text16 CODE >20:/home/carloscosta/Desktop/project1.X/XLCD/putrxlcd.c
+3FC2 text16 CODE >22:/home/carloscosta/Desktop/project1.X/XLCD/putrxlcd.c
+3FCC text16 CODE >23:/home/carloscosta/Desktop/project1.X/XLCD/putrxlcd.c
+3FDC text16 CODE >24:/home/carloscosta/Desktop/project1.X/XLCD/putrxlcd.c
+3FE2 text16 CODE >20:/home/carloscosta/Desktop/project1.X/XLCD/putrxlcd.c
+4062 text15 CODE >18:/home/carloscosta/Desktop/project1.X/XLCD/putsxlcd.c
+4062 text15 CODE >20:/home/carloscosta/Desktop/project1.X/XLCD/putsxlcd.c
+4064 text15 CODE >22:/home/carloscosta/Desktop/project1.X/XLCD/putsxlcd.c
+406E text15 CODE >23:/home/carloscosta/Desktop/project1.X/XLCD/putsxlcd.c
+407C text15 CODE >24:/home/carloscosta/Desktop/project1.X/XLCD/putsxlcd.c
+4082 text15 CODE >20:/home/carloscosta/Desktop/project1.X/XLCD/putsxlcd.c
+37E6 text14 CODE >8:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+37E6 text14 CODE >14:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+37F0 text14 CODE >15:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+37FC text14 CODE >16:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3802 text14 CODE >17:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3804 text14 CODE >18:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+380C text14 CODE >19:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3810 text14 CODE >17:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3816 text14 CODE >22:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+381E text14 CODE >23:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3832 text14 CODE >24:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3842 text14 CODE >25:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3846 text14 CODE >27:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+384E text14 CODE >28:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3854 text14 CODE >29:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3854 text14 CODE >30:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+385C text14 CODE >31:/opt/microchip/xc8/v1.41/sources/common/lwdiv.c
+3B74 text13 CODE >8:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3B74 text13 CODE >13:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3B80 text13 CODE >14:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3B86 text13 CODE >15:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3B88 text13 CODE >16:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3B90 text13 CODE >17:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3B94 text13 CODE >15:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3B9A text13 CODE >20:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3BAE text13 CODE >21:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3BBE text13 CODE >22:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3BC6 text13 CODE >23:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3BCC text13 CODE >24:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3BCC text13 CODE >25:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+3BD4 text13 CODE >26:/opt/microchip/xc8/v1.41/sources/common/lwmod.c
+4368 text12 CODE >7:/opt/microchip/xc8/v1.41/sources/common/putch.c
+436C text12 CODE >9:/opt/microchip/xc8/v1.41/sources/common/putch.c
+1D5A text11 CODE >458:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1D5A text11 CODE >536:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1D5C text11 CODE >538:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1D66 text11 CODE >541:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1DD0 text11 CODE >542:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1DD2 text11 CODE >548:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1DD8 text11 CODE >635:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1DDA text11 CODE >734:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1E02 text11 CODE >740:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1E0E text11 CODE >741:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1E1A text11 CODE >777:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1E1C text11 CODE >778:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1ECE text11 CODE >777:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1EF6 text11 CODE >635:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1F28 text11 CODE >1259:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1F50 text11 CODE >1261:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1F56 text11 CODE >1262:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1F5C text11 CODE >1263:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1F66 text11 CODE >1305:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1F76 text11 CODE >1306:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1F9C text11 CODE >1305:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1FA2 text11 CODE >1438:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+1FB0 text11 CODE >1439:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+2018 text11 CODE >1472:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+201C text11 CODE >1474:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+201E text11 CODE >1489:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+2068 text11 CODE >1524:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+20D2 text11 CODE >1474:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+20DE text11 CODE >536:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+20FA text11 CODE >1540:/opt/microchip/xc8/v1.41/sources/common/doprnt.c
+3CEC text10 CODE >13:/opt/microchip/xc8/v1.41/sources/common/sprintf.c
+3CEC text10 CODE >31:/opt/microchip/xc8/v1.41/sources/common/sprintf.c
+3CF4 text10 CODE >32:/opt/microchip/xc8/v1.41/sources/common/sprintf.c
+3D00 text10 CODE >33:/opt/microchip/xc8/v1.41/sources/common/sprintf.c
+3D0C text10 CODE >34:/opt/microchip/xc8/v1.41/sources/common/sprintf.c
+3D30 text10 CODE >35:/opt/microchip/xc8/v1.41/sources/common/sprintf.c
+6C2 text9 CODE >203:/home/carloscosta/Desktop/project1.X/main.c
+6C2 text9 CODE >210:/home/carloscosta/Desktop/project1.X/main.c
+6CC text9 CODE >211:/home/carloscosta/Desktop/project1.X/main.c
+6D2 text9 CODE >214:/home/carloscosta/Desktop/project1.X/main.c
+6DE text9 CODE >215:/home/carloscosta/Desktop/project1.X/main.c
+6E6 text9 CODE >216:/home/carloscosta/Desktop/project1.X/main.c
+6EE text9 CODE >217:/home/carloscosta/Desktop/project1.X/main.c
+6F6 text9 CODE >218:/home/carloscosta/Desktop/project1.X/main.c
+6FE text9 CODE >219:/home/carloscosta/Desktop/project1.X/main.c
+706 text9 CODE >221:/home/carloscosta/Desktop/project1.X/main.c
+710 text9 CODE >222:/home/carloscosta/Desktop/project1.X/main.c
+716 text9 CODE >223:/home/carloscosta/Desktop/project1.X/main.c
+718 text9 CODE >225:/home/carloscosta/Desktop/project1.X/main.c
+722 text9 CODE >226:/home/carloscosta/Desktop/project1.X/main.c
+728 text9 CODE >230:/home/carloscosta/Desktop/project1.X/main.c
+732 text9 CODE >231:/home/carloscosta/Desktop/project1.X/main.c
+738 text9 CODE >232:/home/carloscosta/Desktop/project1.X/main.c
+73E text9 CODE >233:/home/carloscosta/Desktop/project1.X/main.c
+77A text9 CODE >234:/home/carloscosta/Desktop/project1.X/main.c
+79E text9 CODE >235:/home/carloscosta/Desktop/project1.X/main.c
+7AE text9 CODE >237:/home/carloscosta/Desktop/project1.X/main.c
+7B8 text9 CODE >238:/home/carloscosta/Desktop/project1.X/main.c
+7BE text9 CODE >239:/home/carloscosta/Desktop/project1.X/main.c
+7CE text9 CODE >241:/home/carloscosta/Desktop/project1.X/main.c
+7D8 text9 CODE >242:/home/carloscosta/Desktop/project1.X/main.c
+7DE text9 CODE >243:/home/carloscosta/Desktop/project1.X/main.c
+7E4 text9 CODE >244:/home/carloscosta/Desktop/project1.X/main.c
+820 text9 CODE >245:/home/carloscosta/Desktop/project1.X/main.c
+844 text9 CODE >246:/home/carloscosta/Desktop/project1.X/main.c
+854 text9 CODE >248:/home/carloscosta/Desktop/project1.X/main.c
+85E text9 CODE >249:/home/carloscosta/Desktop/project1.X/main.c
+864 text9 CODE >250:/home/carloscosta/Desktop/project1.X/main.c
+874 text9 CODE >252:/home/carloscosta/Desktop/project1.X/main.c
+87E text9 CODE >253:/home/carloscosta/Desktop/project1.X/main.c
+884 text9 CODE >254:/home/carloscosta/Desktop/project1.X/main.c
+88A text9 CODE >255:/home/carloscosta/Desktop/project1.X/main.c
+8C6 text9 CODE >256:/home/carloscosta/Desktop/project1.X/main.c
+8EA text9 CODE >257:/home/carloscosta/Desktop/project1.X/main.c
+8FA text9 CODE >260:/home/carloscosta/Desktop/project1.X/main.c
+904 text9 CODE >261:/home/carloscosta/Desktop/project1.X/main.c
+90A text9 CODE >262:/home/carloscosta/Desktop/project1.X/main.c
+916 text9 CODE >263:/home/carloscosta/Desktop/project1.X/main.c
+926 text9 CODE >264:/home/carloscosta/Desktop/project1.X/main.c
+926 text9 CODE >265:/home/carloscosta/Desktop/project1.X/main.c
+936 text9 CODE >268:/home/carloscosta/Desktop/project1.X/main.c
+940 text9 CODE >269:/home/carloscosta/Desktop/project1.X/main.c
+946 text9 CODE >270:/home/carloscosta/Desktop/project1.X/main.c
+95E text9 CODE >271:/home/carloscosta/Desktop/project1.X/main.c
+96E text9 CODE >272:/home/carloscosta/Desktop/project1.X/main.c
+970 text9 CODE >274:/home/carloscosta/Desktop/project1.X/main.c
+980 text9 CODE >276:/home/carloscosta/Desktop/project1.X/main.c
+98A text9 CODE >279:/home/carloscosta/Desktop/project1.X/main.c
+994 text9 CODE >280:/home/carloscosta/Desktop/project1.X/main.c
+99A text9 CODE >281:/home/carloscosta/Desktop/project1.X/main.c
+9B2 text9 CODE >282:/home/carloscosta/Desktop/project1.X/main.c
+9C2 text9 CODE >283:/home/carloscosta/Desktop/project1.X/main.c
+9C4 text9 CODE >285:/home/carloscosta/Desktop/project1.X/main.c
+9D4 text9 CODE >289:/home/carloscosta/Desktop/project1.X/main.c
+9DE text9 CODE >290:/home/carloscosta/Desktop/project1.X/main.c
+9E4 text9 CODE >291:/home/carloscosta/Desktop/project1.X/main.c
+A02 text9 CODE >292:/home/carloscosta/Desktop/project1.X/main.c
+A12 text9 CODE >293:/home/carloscosta/Desktop/project1.X/main.c
+A1C text9 CODE >296:/home/carloscosta/Desktop/project1.X/main.c
+A22 text9 CODE >297:/home/carloscosta/Desktop/project1.X/main.c
+A28 text9 CODE >298:/home/carloscosta/Desktop/project1.X/main.c
+A2A text9 CODE >300:/home/carloscosta/Desktop/project1.X/main.c
+A3E text9 CODE >301:/home/carloscosta/Desktop/project1.X/main.c
+A7A text9 CODE >302:/home/carloscosta/Desktop/project1.X/main.c
+A9E text9 CODE >303:/home/carloscosta/Desktop/project1.X/main.c
+AA0 text9 CODE >304:/home/carloscosta/Desktop/project1.X/main.c
+AA0 text9 CODE >305:/home/carloscosta/Desktop/project1.X/main.c
+AA8 text9 CODE >306:/home/carloscosta/Desktop/project1.X/main.c
+AE4 text9 CODE >307:/home/carloscosta/Desktop/project1.X/main.c
+B08 text9 CODE >308:/home/carloscosta/Desktop/project1.X/main.c
+B0A text9 CODE >310:/home/carloscosta/Desktop/project1.X/main.c
+B46 text9 CODE >311:/home/carloscosta/Desktop/project1.X/main.c
+B6A text9 CODE >313:/home/carloscosta/Desktop/project1.X/main.c
+B6C text9 CODE >298:/home/carloscosta/Desktop/project1.X/main.c
+B90 text9 CODE >314:/home/carloscosta/Desktop/project1.X/main.c
+BA0 text9 CODE >315:/home/carloscosta/Desktop/project1.X/main.c
+BAA text9 CODE >317:/home/carloscosta/Desktop/project1.X/main.c
+BB0 text9 CODE >318:/home/carloscosta/Desktop/project1.X/main.c
+BC0 text9 CODE >319:/home/carloscosta/Desktop/project1.X/main.c
+BCA text9 CODE >321:/home/carloscosta/Desktop/project1.X/main.c
+BD0 text9 CODE >322:/home/carloscosta/Desktop/project1.X/main.c
+BE0 text9 CODE >323:/home/carloscosta/Desktop/project1.X/main.c
+BEA text9 CODE >325:/home/carloscosta/Desktop/project1.X/main.c
+BF0 text9 CODE >326:/home/carloscosta/Desktop/project1.X/main.c
+BF6 text9 CODE >327:/home/carloscosta/Desktop/project1.X/main.c
+BF8 text9 CODE >329:/home/carloscosta/Desktop/project1.X/main.c
+C0C text9 CODE >330:/home/carloscosta/Desktop/project1.X/main.c
+C30 text9 CODE >331:/home/carloscosta/Desktop/project1.X/main.c
+C32 text9 CODE >333:/home/carloscosta/Desktop/project1.X/main.c
+C46 text9 CODE >334:/home/carloscosta/Desktop/project1.X/main.c
+C6A text9 CODE >335:/home/carloscosta/Desktop/project1.X/main.c
+C6C text9 CODE >337:/home/carloscosta/Desktop/project1.X/main.c
+C90 text9 CODE >338:/home/carloscosta/Desktop/project1.X/main.c
+C92 text9 CODE >340:/home/carloscosta/Desktop/project1.X/main.c
+CB6 text9 CODE >342:/home/carloscosta/Desktop/project1.X/main.c
+CB8 text9 CODE >327:/home/carloscosta/Desktop/project1.X/main.c
+CE2 text9 CODE >343:/home/carloscosta/Desktop/project1.X/main.c
+CF2 text9 CODE >344:/home/carloscosta/Desktop/project1.X/main.c
+CFE text9 CODE >348:/home/carloscosta/Desktop/project1.X/main.c
+D06 text9 CODE >349:/home/carloscosta/Desktop/project1.X/main.c
+D0E text9 CODE >350:/home/carloscosta/Desktop/project1.X/main.c
+D16 text9 CODE >351:/home/carloscosta/Desktop/project1.X/main.c
+D1E text9 CODE >352:/home/carloscosta/Desktop/project1.X/main.c
+D26 text9 CODE >353:/home/carloscosta/Desktop/project1.X/main.c
+D2E text9 CODE >354:/home/carloscosta/Desktop/project1.X/main.c
+D36 text9 CODE >355:/home/carloscosta/Desktop/project1.X/main.c
+D3C text9 CODE >357:/home/carloscosta/Desktop/project1.X/main.c
+D3E text9 CODE >347:/home/carloscosta/Desktop/project1.X/main.c
+4360 text8 CODE >886:/home/carloscosta/Desktop/project1.X/main.c
+4360 text8 CODE >888:/home/carloscosta/Desktop/project1.X/main.c
+4362 text8 CODE >889:/home/carloscosta/Desktop/project1.X/main.c
+4364 text8 CODE >890:/home/carloscosta/Desktop/project1.X/main.c
+4366 text8 CODE >892:/home/carloscosta/Desktop/project1.X/main.c
+41F2 text7 CODE >32:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+41F2 text7 CODE >34:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+4204 text7 CODE >35:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+4206 text7 CODE >36:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+420A text7 CODE >37:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3AA8 text6 CODE >47:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3AAC text6 CODE >49:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3AB0 text6 CODE >50:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3AB4 text6 CODE >54:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3AC8 text6 CODE >56:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3ACA text6 CODE >57:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3ACE text6 CODE >59:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3AD4 text6 CODE >67:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3AD6 text6 CODE >68:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3AEA text6 CODE >70:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3AEE text6 CODE >71:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3B0C text6 CODE >72:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+3B0E text6 CODE >77:/home/carloscosta/Desktop/project1.X/I2C/i2c.c
+2B56 text5 CODE >425:/home/carloscosta/Desktop/project1.X/main.c
+2B5A text5 CODE >429:/home/carloscosta/Desktop/project1.X/main.c
+2B78 text5 CODE >430:/home/carloscosta/Desktop/project1.X/main.c
+2B9C text5 CODE >431:/home/carloscosta/Desktop/project1.X/main.c
+2BC0 text5 CODE >432:/home/carloscosta/Desktop/project1.X/main.c
+2BE6 text5 CODE >433:/home/carloscosta/Desktop/project1.X/main.c
+2C0C text5 CODE >434:/home/carloscosta/Desktop/project1.X/main.c
+2C30 text5 CODE >435:/home/carloscosta/Desktop/project1.X/main.c
+2C54 text5 CODE >436:/home/carloscosta/Desktop/project1.X/main.c
+2C7A text5 CODE >437:/home/carloscosta/Desktop/project1.X/main.c
+2C80 text5 CODE >439:/home/carloscosta/Desktop/project1.X/main.c
+2C86 text4 CODE >1017:/home/carloscosta/Desktop/project1.X/main.c
+2C86 text4 CODE >1020:/home/carloscosta/Desktop/project1.X/main.c
+2C8C text4 CODE >1023:/home/carloscosta/Desktop/project1.X/main.c
+2CB0 text4 CODE >1024:/home/carloscosta/Desktop/project1.X/main.c
+2CD0 text4 CODE >1025:/home/carloscosta/Desktop/project1.X/main.c
+2CE0 text4 CODE >1026:/home/carloscosta/Desktop/project1.X/main.c
+2CF0 text4 CODE >1027:/home/carloscosta/Desktop/project1.X/main.c
+2CF8 text4 CODE >1028:/home/carloscosta/Desktop/project1.X/main.c
+2D12 text4 CODE >1029:/home/carloscosta/Desktop/project1.X/main.c
+2D1C text4 CODE >1030:/home/carloscosta/Desktop/project1.X/main.c
+2D36 text4 CODE >1031:/home/carloscosta/Desktop/project1.X/main.c
+2D3E text4 CODE >1032:/home/carloscosta/Desktop/project1.X/main.c
+2D40 text4 CODE >1033:/home/carloscosta/Desktop/project1.X/main.c
+2D5C text4 CODE >1034:/home/carloscosta/Desktop/project1.X/main.c
+2D64 text4 CODE >1035:/home/carloscosta/Desktop/project1.X/main.c
+2D66 text4 CODE >1036:/home/carloscosta/Desktop/project1.X/main.c
+2D82 text4 CODE >1037:/home/carloscosta/Desktop/project1.X/main.c
+2D8A text4 CODE >1024:/home/carloscosta/Desktop/project1.X/main.c
+2D92 text4 CODE >1023:/home/carloscosta/Desktop/project1.X/main.c
+2DA6 text4 CODE >1042:/home/carloscosta/Desktop/project1.X/main.c
+42BC text3 CODE >943:/home/carloscosta/Desktop/project1.X/main.c
+42BC text3 CODE >945:/home/carloscosta/Desktop/project1.X/main.c
+42C0 text3 CODE >948:/home/carloscosta/Desktop/project1.X/main.c
+42C4 text3 CODE >949:/home/carloscosta/Desktop/project1.X/main.c
+42C8 text3 CODE >952:/home/carloscosta/Desktop/project1.X/main.c
+42CA text3 CODE >953:/home/carloscosta/Desktop/project1.X/main.c
+42CC text3 CODE >956:/home/carloscosta/Desktop/project1.X/main.c
+42CE text3 CODE >958:/home/carloscosta/Desktop/project1.X/main.c
+2F92 text2 CODE >414:/home/carloscosta/Desktop/project1.X/main.c
+2F96 text2 CODE >416:/home/carloscosta/Desktop/project1.X/main.c
+2FB4 text2 CODE >417:/home/carloscosta/Desktop/project1.X/main.c
+2FD8 text2 CODE >418:/home/carloscosta/Desktop/project1.X/main.c
+2FFC text2 CODE >419:/home/carloscosta/Desktop/project1.X/main.c
+3022 text2 CODE >420:/home/carloscosta/Desktop/project1.X/main.c
+3048 text2 CODE >421:/home/carloscosta/Desktop/project1.X/main.c
+306E text2 CODE >422:/home/carloscosta/Desktop/project1.X/main.c
+3ED8 text1 CODE >443:/home/carloscosta/Desktop/project1.X/main.c
+3EDC text1 CODE >447:/home/carloscosta/Desktop/project1.X/main.c
+3EE0 text1 CODE >448:/home/carloscosta/Desktop/project1.X/main.c
+3EE4 text1 CODE >450:/home/carloscosta/Desktop/project1.X/main.c
+3EE6 text1 CODE >451:/home/carloscosta/Desktop/project1.X/main.c
+3EE8 text1 CODE >452:/home/carloscosta/Desktop/project1.X/main.c
+3EEA text1 CODE >453:/home/carloscosta/Desktop/project1.X/main.c
+3EF4 text1 CODE >454:/home/carloscosta/Desktop/project1.X/main.c
+3EF6 text1 CODE >455:/home/carloscosta/Desktop/project1.X/main.c
+3EFA text1 CODE >456:/home/carloscosta/Desktop/project1.X/main.c
+3EFE text1 CODE >457:/home/carloscosta/Desktop/project1.X/main.c
+3F00 text1 CODE >458:/home/carloscosta/Desktop/project1.X/main.c
+3F04 text1 CODE >459:/home/carloscosta/Desktop/project1.X/main.c
+3F10 text1 CODE >461:/home/carloscosta/Desktop/project1.X/main.c
+3F12 text1 CODE >462:/home/carloscosta/Desktop/project1.X/main.c
+2650 text0 CODE >1055:/home/carloscosta/Desktop/project1.X/main.c
+2650 text0 CODE >1059:/home/carloscosta/Desktop/project1.X/main.c
+2662 text0 CODE >1062:/home/carloscosta/Desktop/project1.X/main.c
+2666 text0 CODE >1063:/home/carloscosta/Desktop/project1.X/main.c
+266A text0 CODE >1064:/home/carloscosta/Desktop/project1.X/main.c
+266E text0 CODE >1065:/home/carloscosta/Desktop/project1.X/main.c
+2672 text0 CODE >1066:/home/carloscosta/Desktop/project1.X/main.c
+2676 text0 CODE >1067:/home/carloscosta/Desktop/project1.X/main.c
+267A text0 CODE >1068:/home/carloscosta/Desktop/project1.X/main.c
+267E text0 CODE >1069:/home/carloscosta/Desktop/project1.X/main.c
+2682 text0 CODE >1073:/home/carloscosta/Desktop/project1.X/main.c
+2686 text0 CODE >1076:/home/carloscosta/Desktop/project1.X/main.c
+269A text0 CODE >1079:/home/carloscosta/Desktop/project1.X/main.c
+26A6 text0 CODE >1081:/home/carloscosta/Desktop/project1.X/main.c
+26AC text0 CODE >1082:/home/carloscosta/Desktop/project1.X/main.c
+26B8 text0 CODE >1087:/home/carloscosta/Desktop/project1.X/main.c
+26E2 text0 CODE >1091:/home/carloscosta/Desktop/project1.X/main.c
+2702 text0 CODE >1092:/home/carloscosta/Desktop/project1.X/main.c
+2720 text0 CODE >1093:/home/carloscosta/Desktop/project1.X/main.c
+2740 text0 CODE >1094:/home/carloscosta/Desktop/project1.X/main.c
+2750 text0 CODE >1095:/home/carloscosta/Desktop/project1.X/main.c
+27A8 text0 CODE >1096:/home/carloscosta/Desktop/project1.X/main.c
+27AC text0 CODE >1097:/home/carloscosta/Desktop/project1.X/main.c
+27BC text0 CODE >1093:/home/carloscosta/Desktop/project1.X/main.c
+27C4 text0 CODE >1091:/home/carloscosta/Desktop/project1.X/main.c
+27CC text0 CODE >1102:/home/carloscosta/Desktop/project1.X/main.c
+27D8 text0 CODE >1103:/home/carloscosta/Desktop/project1.X/main.c
+27E2 text0 CODE >1104:/home/carloscosta/Desktop/project1.X/main.c
+27EC text0 CODE >1105:/home/carloscosta/Desktop/project1.X/main.c
+27F6 text0 CODE >1106:/home/carloscosta/Desktop/project1.X/main.c
+2800 text0 CODE >1107:/home/carloscosta/Desktop/project1.X/main.c
+280A text0 CODE >1108:/home/carloscosta/Desktop/project1.X/main.c
+2814 text0 CODE >1109:/home/carloscosta/Desktop/project1.X/main.c
+281E text0 CODE >1110:/home/carloscosta/Desktop/project1.X/main.c
+2828 text0 CODE >1111:/home/carloscosta/Desktop/project1.X/main.c
+2832 text0 CODE >1077:/home/carloscosta/Desktop/project1.X/main.c
+3502 cinit CODE >4639:/tmp/xcX5vsoIu
+3502 cinit CODE >4641:/tmp/xcX5vsoIu
+3502 cinit CODE >4644:/tmp/xcX5vsoIu
+3502 cinit CODE >4860:/tmp/xcX5vsoIu
+3504 cinit CODE >4861:/tmp/xcX5vsoIu
+3506 cinit CODE >4862:/tmp/xcX5vsoIu
+3508 cinit CODE >4863:/tmp/xcX5vsoIu
+350A cinit CODE >4864:/tmp/xcX5vsoIu
+350C cinit CODE >4865:/tmp/xcX5vsoIu
+350E cinit CODE >4866:/tmp/xcX5vsoIu
+3512 cinit CODE >4867:/tmp/xcX5vsoIu
+3516 cinit CODE >4868:/tmp/xcX5vsoIu
+3516 cinit CODE >4869:/tmp/xcX5vsoIu
+3518 cinit CODE >4870:/tmp/xcX5vsoIu
+351C cinit CODE >4871:/tmp/xcX5vsoIu
+351E cinit CODE >4872:/tmp/xcX5vsoIu
+3520 cinit CODE >4873:/tmp/xcX5vsoIu
+3522 cinit CODE >4877:/tmp/xcX5vsoIu
+3524 cinit CODE >4878:/tmp/xcX5vsoIu
+3526 cinit CODE >4879:/tmp/xcX5vsoIu
+3528 cinit CODE >4880:/tmp/xcX5vsoIu
+352A cinit CODE >4881:/tmp/xcX5vsoIu
+352C cinit CODE >4882:/tmp/xcX5vsoIu
+352E cinit CODE >4883:/tmp/xcX5vsoIu
+3532 cinit CODE >4884:/tmp/xcX5vsoIu
+3536 cinit CODE >4885:/tmp/xcX5vsoIu
+3536 cinit CODE >4886:/tmp/xcX5vsoIu
+3538 cinit CODE >4887:/tmp/xcX5vsoIu
+353C cinit CODE >4888:/tmp/xcX5vsoIu
+353E cinit CODE >4889:/tmp/xcX5vsoIu
+3540 cinit CODE >4890:/tmp/xcX5vsoIu
+3542 cinit CODE >4894:/tmp/xcX5vsoIu
+3544 cinit CODE >4895:/tmp/xcX5vsoIu
+3546 cinit CODE >4896:/tmp/xcX5vsoIu
+3548 cinit CODE >4897:/tmp/xcX5vsoIu
+354A cinit CODE >4898:/tmp/xcX5vsoIu
+354C cinit CODE >4899:/tmp/xcX5vsoIu
+354E cinit CODE >4900:/tmp/xcX5vsoIu
+3552 cinit CODE >4901:/tmp/xcX5vsoIu
+3556 cinit CODE >4902:/tmp/xcX5vsoIu
+3556 cinit CODE >4903:/tmp/xcX5vsoIu
+3558 cinit CODE >4904:/tmp/xcX5vsoIu
+355C cinit CODE >4905:/tmp/xcX5vsoIu
+355E cinit CODE >4906:/tmp/xcX5vsoIu
+3560 cinit CODE >4907:/tmp/xcX5vsoIu
+3562 cinit CODE >4911:/tmp/xcX5vsoIu
+3564 cinit CODE >4912:/tmp/xcX5vsoIu
+3566 cinit CODE >4913:/tmp/xcX5vsoIu
+3568 cinit CODE >4914:/tmp/xcX5vsoIu
+356A cinit CODE >4915:/tmp/xcX5vsoIu
+356C cinit CODE >4916:/tmp/xcX5vsoIu
+356E cinit CODE >4917:/tmp/xcX5vsoIu
+3570 cinit CODE >4918:/tmp/xcX5vsoIu
+3574 cinit CODE >4919:/tmp/xcX5vsoIu
+3576 cinit CODE >4920:/tmp/xcX5vsoIu
+357A cinit CODE >4924:/tmp/xcX5vsoIu
+357E cinit CODE >4925:/tmp/xcX5vsoIu
+3580 cinit CODE >4926:/tmp/xcX5vsoIu
+3580 cinit CODE >4927:/tmp/xcX5vsoIu
+3582 cinit CODE >4928:/tmp/xcX5vsoIu
+3584 cinit CODE >4929:/tmp/xcX5vsoIu
+3586 cinit CODE >4932:/tmp/xcX5vsoIu
+358A cinit CODE >4933:/tmp/xcX5vsoIu
+358C cinit CODE >4934:/tmp/xcX5vsoIu
+358C cinit CODE >4935:/tmp/xcX5vsoIu
+358E cinit CODE >4936:/tmp/xcX5vsoIu
+3590 cinit CODE >4937:/tmp/xcX5vsoIu
+3592 cinit CODE >4940:/tmp/xcX5vsoIu
+3594 cinit CODE >4941:/tmp/xcX5vsoIu
+3596 cinit CODE >4947:/tmp/xcX5vsoIu
+3596 cinit CODE >4949:/tmp/xcX5vsoIu
+3598 cinit CODE >4950:/tmp/xcX5vsoIu
+359A cinit CODE >4952:/tmp/xcX5vsoIu
+359C cinit CODE >4953:/tmp/xcX5vsoIu
+359E cinit CODE >4954:/tmp/xcX5vsoIu
+35A0 cinit CODE >4955:/tmp/xcX5vsoIu
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_global_init 4360 0 CODE 0 text8 dist/default/debug/project1.X.debug.obj
+___awdiv@counter 5 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+WriteCmdXLCD@cmd 23C 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+___lwmod@counter 247 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/debug/project1.X.debug.obj
+__LdataBANK1 0 0 ABS 0 dataBANK1 dist/default/debug/project1.X.debug.obj
+__LdataBANK2 0 0 ABS 0 dataBANK2 dist/default/debug/project1.X.debug.obj
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/debug/project1.X.debug.obj
+__end_ofi2_DelayExternalEEPROM 41D4 0 CODE 0 text63 dist/default/debug/project1.X.debug.obj
+__Hspace_0 30000E 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__Hspace_1 2AD 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__Hspace_2 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__CFG_IESO$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/debug/project1.X.debug.obj
+__HidataBANK1 0 0 ABS 0 idataBANK1 dist/default/debug/project1.X.debug.obj
+__HidataBANK2 0 0 ABS 0 idataBANK2 dist/default/debug/project1.X.debug.obj
+writeEEEPROM@Addrhi 245 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+writeEEEPROM@Addrlo 242 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__size_ofi2_readEEEPROM 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+frexp@eptr 4 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/debug/project1.X.debug.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst /tmp/xcXCqbZJR.obj
+___awtoft@sign C 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_timer1_isr 18F4 0 CODE 0 text38 dist/default/debug/project1.X.debug.obj
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug/project1.X.debug.obj
+_Delay10TCYx 4118 0 CODE 0 text52 dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@c CA 0 BANK0 1 cstackBANK0 dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@i D3 0 BANK0 1 cstackBANK0 dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@j CF 0 BANK0 1 cstackBANK0 dist/default/debug/project1.X.debug.obj
+__end_of_OffBuffer 4358 0 CODE 0 text58 dist/default/debug/project1.X.debug.obj
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+meteo_init_EEEPROM@i 245 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+meteo_init_EEEPROM@j 247 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+_T1CONbits FCD 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_meteo_init_EEEPROM 2DA8 0 CODE 0 text4 dist/default/debug/project1.X.debug.obj
+_reply_message_serial_com D86 0 CODE 0 text66 dist/default/debug/project1.X.debug.obj
+_Delay1KTCYx 3C94 0 CODE 0 text32 dist/default/debug/project1.X.debug.obj
+__size_of_OffBuffer 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+main@i 273 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+main@j 271 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__Lsmallconst 600 0 SMALLCONST 0 smallconst dist/default/debug/project1.X.debug.obj
+_ALAF 2AB 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+_ALAL 238 0 BANK2 1 dataBANK2 dist/default/debug/project1.X.debug.obj
+_ALAT 23A 0 BANK2 1 dataBANK2 dist/default/debug/project1.X.debug.obj
+_PMON 1FE 0 BANK1 1 dataBANK1 dist/default/debug/project1.X.debug.obj
+_TINA 1FC 0 BANK1 1 dataBANK1 dist/default/debug/project1.X.debug.obj
+_TMR0 FD6 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_TSOM 7D 0 COMRAM 1 dataCOMRAM dist/default/debug/project1.X.debug.obj
+___sp 0 0 STACK 2 stack /tmp/xcXCqbZJR.obj
+_atoi 3226 0 CODE 0 text69 dist/default/debug/project1.X.debug.obj
+_main 2650 0 CODE 0 text0 dist/default/debug/project1.X.debug.obj
+_mode 7B 0 COMRAM 1 bssCOMRAM dist/default/debug/project1.X.debug.obj
+btemp 7F 0 COMRAM 1 temp dist/default/debug/project1.X.debug.obj
+__end_of_ConvertADC 4388 0 CODE 0 text53 dist/default/debug/project1.X.debug.obj
+i2_DelayExternalEEPROM 41B2 0 CODE 0 text63 dist/default/debug/project1.X.debug.obj
+___ftadd@f1 9 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+___ftadd@f2 C 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+start E 0 CODE 0 init /tmp/xcXCqbZJR.obj
+i2___lwdiv@quotient 5 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+i2sprintf@ap 4E 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+i2sprintf@pb 50 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+i2sprintf@wh 1C 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of___awmod 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_displayLuminosity 29D 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+__size_of___ftadd 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of___fttol 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_atoi 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_main 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_writeEEEPROM 2F92 0 CODE 0 text2 dist/default/debug/project1.X.debug.obj
+__size_of___lwdiv 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of___lwmod 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_syn_serial_commun_isr 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug/project1.X.debug.obj
+__size_of_timer0_reset 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+writeEEEPROM@Data 243 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+i2___lwmod@dividend 8 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+?_getLuminosity 22 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+?___lmul 23C 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+?___wmul 23C 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__end_of_USART_init 42F6 0 CODE 0 text20 dist/default/debug/project1.X.debug.obj
+__size_ofi2_DelayFor18TCY 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_OffBuffer 434E 0 CODE 0 text58 dist/default/debug/project1.X.debug.obj
+writeIEEPROM@saveGIE 23E 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__end_ofi2_readEEEPROM 2E9E 0 CODE 0 text60 dist/default/debug/project1.X.debug.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/debug/project1.X.debug.obj
+__LidataBANK1 0 0 ABS 0 idataBANK1 dist/default/debug/project1.X.debug.obj
+__LidataBANK2 0 0 ABS 0 idataBANK2 dist/default/debug/project1.X.debug.obj
+_BusyADC 4342 0 CODE 0 text55 dist/default/debug/project1.X.debug.obj
+getLuminosity@result 24 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_LCD_init 4318 0 CODE 0 text26 dist/default/debug/project1.X.debug.obj
+__Hpowerup E 0 CODE 0 powerup dist/default/debug/project1.X.debug.obj
+OpenI2C@sync_mode 23D 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+Delay10TCYx@n 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+printf@f 1C 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+___awmod@sign 6 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__size_of__doprnt 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+___ftge@ff1 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+___ftge@ff2 4 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_T0CONbits FD5 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug/project1.X.debug.obj
+_meteo_init_EEEPROM 2C86 0 CODE 0 text4 dist/default/debug/project1.X.debug.obj
+__accesstop 80 0 ABS 0 - /tmp/xcXCqbZJR.obj
+intlevel0 0 0 CODE 0 text /tmp/xcXCqbZJR.obj
+intlevel1 0 0 CODE 0 text /tmp/xcXCqbZJR.obj
+intlevel2 0 0 CODE 0 text /tmp/xcXCqbZJR.obj
+intlevel3 0 0 CODE 0 text /tmp/xcXCqbZJR.obj
+__end_of_LCD_init 4328 0 CODE 0 text26 dist/default/debug/project1.X.debug.obj
+meteo_init_EEEPROM@Addrhi 242 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+meteo_init_EEEPROM@Addrlo 243 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+readEEEPROM@Addrhi 240 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+readEEEPROM@Addrlo 23E 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug/project1.X.debug.obj
+__end_of_timer0_reset 4380 0 CODE 0 text81 dist/default/debug/project1.X.debug.obj
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug/project1.X.debug.obj
+__CFG_EBTR0$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__CFG_EBTR1$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__CFG_EBTR2$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__CFG_EBTR3$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_timer0_init 42A6 0 CODE 0 text82 dist/default/debug/project1.X.debug.obj
+__CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_timer1_init 42BC 0 CODE 0 text3 dist/default/debug/project1.X.debug.obj
+__Hifardata 0 0 CODE 0 ifardata dist/default/debug/project1.X.debug.obj
+__size_of_writeEEEPROM 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_timer1_isr 1D5A 0 CODE 0 text38 dist/default/debug/project1.X.debug.obj
+___awdiv@sign 6 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__Hclrtext 0 0 ABS 0 clrtext dist/default/debug/project1.X.debug.obj
+__pidataCOMRAM 4388 0 CODE 0 idataCOMRAM dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@reply_message C4 0 BANK0 1 cstackBANK0 dist/default/debug/project1.X.debug.obj
+___wmul@multiplicand 23E 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+_maxTemperature 230 0 BANK2 1 dataBANK2 dist/default/debug/project1.X.debug.obj
+?_reply_message_serial_com 54 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_updateExternalEEPROM 289 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+_ADCON0 FC2 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_ADCON1 FC1 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_ADCON2 FC0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_ADRESH FC4 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_ADRESL FC3 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+i2___wmul@multiplier 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+i2_WriteI2C 3BD6 0 CODE 0 text61 dist/default/debug/project1.X.debug.obj
+__end_of_DelayXLCD 428E 0 CODE 0 text30 dist/default/debug/project1.X.debug.obj
+___awdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_Addrhi F8 0 BANK0 1 bssBANK0 dist/default/debug/project1.X.debug.obj
+_Addrlo F7 0 BANK0 1 bssBANK0 dist/default/debug/project1.X.debug.obj
+___inthi_sp 0 0 STACK 2 stack /tmp/xcXCqbZJR.obj
+___intlo_sp 0 0 STACK 2 stack /tmp/xcXCqbZJR.obj
+__size_ofi2___wmul 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of___altoft 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug/project1.X.debug.obj
+__size_of___awtoft 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_DelayXLCD 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_EECON1bits FA6 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_CCPR1L FBE 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_ReadADC 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_ReadI2C 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+i2___lwmod@divisor A 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__doprnt@flag 250 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__doprnt@prec 251 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/debug/project1.X.debug.obj
+___altoft@c 10 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__end_of___ftge 3762 0 CODE 0 text44 dist/default/debug/project1.X.debug.obj
+__end_of___lmul 39C4 0 CODE 0 text33 dist/default/debug/project1.X.debug.obj
+__end_of___wmul 402C 0 CODE 0 text19 dist/default/debug/project1.X.debug.obj
+i2__doprnt@ap 11 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+i2__doprnt@cp 19 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+i2__doprnt@pb D 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__size_of_BusyXLCD 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+reply_message_serial_com@data 56 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+reply_message_serial_com@oper 54 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_EECON2 FA7 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_EEDATA FA8 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_writeEEEPROM 3076 0 CODE 0 text2 dist/default/debug/project1.X.debug.obj
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug/project1.X.debug.obj
+Delay1KTCYx@n 248 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__fassert@file 2C 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__fassert@line 2A 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+___fttol@f1 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__size_of_sprintf 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/debug/project1.X.debug.obj
+?_printf 1C 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+displayInterface@status 265 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__Hintcodelo E 0 CODE 0 intcodelo dist/default/debug/project1.X.debug.obj
+i2readEEEPROM@value 6 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+___awdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+___lwmod@divisor 245 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__size_of___ftpack 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of___awdiv 37E6 0 CODE 0 text49 dist/default/debug/project1.X.debug.obj
+__end_of___awmod 3AA8 0 CODE 0 text84 dist/default/debug/project1.X.debug.obj
+__end_of___ftadd 29E0 0 CODE 0 text45 dist/default/debug/project1.X.debug.obj
+__end_of___fttol 2F92 0 CODE 0 text43 dist/default/debug/project1.X.debug.obj
+_DelayXLCD 4276 0 CODE 0 text30 dist/default/debug/project1.X.debug.obj
+__end_of___lwdiv 385E 0 CODE 0 text14 dist/default/debug/project1.X.debug.obj
+__end_of___lwmod 3BD6 0 CODE 0 text13 dist/default/debug/project1.X.debug.obj
+__size_of_isdigit 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+assync_serial_commun@F3539 DF 0 BANK0 1 dataBANK0 dist/default/debug/project1.X.debug.obj
+i2__doprnt@val 17 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+?_strlen 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_writeIEEPROM 3ED8 0 CODE 0 text1 dist/default/debug/project1.X.debug.obj
+_pressedMode 291 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+_getTemperature 2464 0 CODE 0 text39 dist/default/debug/project1.X.debug.obj
+_countAlarmLuminosity E9 0 BANK0 1 dataBANK0 dist/default/debug/project1.X.debug.obj
+__end_of_ReadUSART 40C0 0 CODE 0 text79 dist/default/debug/project1.X.debug.obj
+_dpowers 601 0 SMALLCONST 0 smallconst dist/default/debug/project1.X.debug.obj
+__size_of_reply_message_serial_com 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+?i2___lwdiv 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+?i2___lwmod 8 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__size_of_ReadUSART 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+___lwdiv@quotient 240 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug/project1.X.debug.obj
+__size_of_floor 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_frexp 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_countSaveTime F3 0 BANK0 1 bssBANK0 dist/default/debug/project1.X.debug.obj
+__size_of_putch 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of__doprnt 2106 0 CODE 0 text11 dist/default/debug/project1.X.debug.obj
+_WriteDataXLCD 3D90 0 CODE 0 text17 dist/default/debug/project1.X.debug.obj
+_INTCON2bits FF1 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+___lwmod@dividend 243 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__Lintcodelo E 0 CODE 0 intcodelo dist/default/debug/project1.X.debug.obj
+_goToSleep 293 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_assync_serial_commun 32F4 0 CODE 0 text56 dist/default/debug/project1.X.debug.obj
+__size_of__fassert 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+OpenXLCD@lcdtype 250 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+_DelayFor18TCY 422A 0 CODE 0 text36 dist/default/debug/project1.X.debug.obj
+_readEEEPROM 2B56 0 CODE 0 text5 dist/default/debug/project1.X.debug.obj
+start_initialization 3502 0 CODE 0 cinit dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@request_message 80 0 BANK0 1 cstackBANK0 dist/default/debug/project1.X.debug.obj
+i2_putch 438A 0 CODE 0 text75 dist/default/debug/project1.X.debug.obj
+__size_of_RBO_init 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug/project1.X.debug.obj
+i2___wmul 4168 0 CODE 0 text70 dist/default/debug/project1.X.debug.obj
+___altoft 38D6 0 CODE 0 text46 dist/default/debug/project1.X.debug.obj
+__end_ofi2_WriteI2C 3C36 0 CODE 0 text61 dist/default/debug/project1.X.debug.obj
+___awtoft 3F88 0 CODE 0 text47 dist/default/debug/project1.X.debug.obj
+?i2__doprnt D 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_TRISAbits F92 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_TRISBbits F93 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_TRISCbits F94 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_TRISDbits F95 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_ReadUSART 4092 0 CODE 0 text79 dist/default/debug/project1.X.debug.obj
+_ra4_isr 29E0 0 CODE 0 text83 dist/default/debug/project1.X.debug.obj
+_rb0_isr 363E 0 CODE 0 text80 dist/default/debug/project1.X.debug.obj
+putrsXLCD@buffer 23D 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+getLuminosity@read 2C 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+___rparam_used 1 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@reply_data 92 0 BANK0 1 cstackBANK0 dist/default/debug/project1.X.debug.obj
+_BusyXLCD 3F14 0 CODE 0 text34 dist/default/debug/project1.X.debug.obj
+__end_of_memset 4118 0 CODE 0 text68 dist/default/debug/project1.X.debug.obj
+__end_of_buzzer_init 4318 0 CODE 0 text18 dist/default/debug/project1.X.debug.obj
+_getLuminosity 3458 0 CODE 0 text40 dist/default/debug/project1.X.debug.obj
+__CFG_WDTPS$32768 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_ofi2___wmul 418E 0 CODE 0 text70 dist/default/debug/project1.X.debug.obj
+__end_of___altoft 394E 0 CODE 0 text46 dist/default/debug/project1.X.debug.obj
+__end_of_OpenUSART 3A38 0 CODE 0 text21 dist/default/debug/project1.X.debug.obj
+__end_of___awtoft 3FC0 0 CODE 0 text47 dist/default/debug/project1.X.debug.obj
+_SPBRGH FB0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__pcstackBANK0 80 0 BANK0 1 cstackBANK0 dist/default/debug/project1.X.debug.obj
+__pcstackBANK1 100 0 BANK1 1 cstackBANK1 dist/default/debug/project1.X.debug.obj
+__pcstackBANK2 23C 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+WriteUSART@data 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_SSPADD FC8 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_SSPBUF FC9 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+___fttol@exp1 F 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+___fttol@lval B 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+getLuminosity@level 2A 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+i2sprintf@f 1E 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+displayInterface@mode 263 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__size_of_OpenUSART 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_writeIEEPROM 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_ConvertADC 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_BusyXLCD 3F4E 0 CODE 0 text34 dist/default/debug/project1.X.debug.obj
+___ftpack 33AA 0 CODE 0 text48 dist/default/debug/project1.X.debug.obj
+i2___lwdiv@counter 7 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__end_of_printf 4062 0 CODE 0 text73 dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@end C8 0 BANK0 1 cstackBANK0 dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@msg CD 0 BANK0 1 cstackBANK0 dist/default/debug/project1.X.debug.obj
+_WriteUSART 42D0 0 CODE 0 text78 dist/default/debug/project1.X.debug.obj
+___ftpack@arg 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+___ftpack@exp 4 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__end_of_getTemperature 2650 0 CODE 0 text39 dist/default/debug/project1.X.debug.obj
+__end_of_ReadADC 4336 0 CODE 0 text50 dist/default/debug/project1.X.debug.obj
+__end_of_ReadI2C 420E 0 CODE 0 text7 dist/default/debug/project1.X.debug.obj
+__size_of_USART_init 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_global_init 4368 0 CODE 0 text8 dist/default/debug/project1.X.debug.obj
+__size_of_CloseADC 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of___ftpack 3458 0 CODE 0 text48 dist/default/debug/project1.X.debug.obj
+__Hbank0 0 0 ABS 0 bank0 dist/default/debug/project1.X.debug.obj
+__Hbank1 0 0 ABS 0 bank1 dist/default/debug/project1.X.debug.obj
+__Hbank2 0 0 ABS 0 bank2 dist/default/debug/project1.X.debug.obj
+__Hbank3 0 0 ABS 0 bank3 dist/default/debug/project1.X.debug.obj
+__Hbank4 0 0 ABS 0 bank4 dist/default/debug/project1.X.debug.obj
+__Hbank5 0 0 ABS 0 bank5 dist/default/debug/project1.X.debug.obj
+__Hcinit 0 0 ABS 0 cinit dist/default/debug/project1.X.debug.obj
+__Hconst 0 0 CONST 0 const dist/default/debug/project1.X.debug.obj
+__end_of_strlen 3F88 0 CODE 0 text65 dist/default/debug/project1.X.debug.obj
+__Hidata 0 0 CODE 0 idata dist/default/debug/project1.X.debug.obj
+__Hidloc 200008 0 IDLOC 0 idloc dist/default/debug/project1.X.debug.obj
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/debug/project1.X.debug.obj
+__Hparam 0 0 COMRAM 1 rparam dist/default/debug/project1.X.debug.obj
+__Hrdata 0 0 COMRAM 1 rdata dist/default/debug/project1.X.debug.obj
+__Hstack 0 0 STACK 2 stack dist/default/debug/project1.X.debug.obj
+__Htext0 0 0 ABS 0 text0 dist/default/debug/project1.X.debug.obj
+__Htext1 0 0 ABS 0 text1 dist/default/debug/project1.X.debug.obj
+__Htext2 0 0 ABS 0 text2 dist/default/debug/project1.X.debug.obj
+__Htext3 0 0 ABS 0 text3 dist/default/debug/project1.X.debug.obj
+__Htext4 0 0 ABS 0 text4 dist/default/debug/project1.X.debug.obj
+__Htext5 0 0 ABS 0 text5 dist/default/debug/project1.X.debug.obj
+__Htext6 0 0 ABS 0 text6 dist/default/debug/project1.X.debug.obj
+__Htext7 0 0 ABS 0 text7 dist/default/debug/project1.X.debug.obj
+__Htext8 0 0 ABS 0 text8 dist/default/debug/project1.X.debug.obj
+__Htext9 0 0 ABS 0 text9 dist/default/debug/project1.X.debug.obj
+__size_of_OpenADC 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_OpenI2C 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_countTINA F5 0 BANK0 1 bssBANK0 dist/default/debug/project1.X.debug.obj
+___lwdiv@counter 242 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+_OpenUSART 39C4 0 CODE 0 text21 dist/default/debug/project1.X.debug.obj
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug/project1.X.debug.obj
+__Hbigram 0 0 ABS 0 bigram dist/default/debug/project1.X.debug.obj
+__smallconst 600 0 SMALLCONST 0 smallconst /tmp/xcXCqbZJR.obj
+__end_of_sprintf 3D3E 0 CODE 0 text10 dist/default/debug/project1.X.debug.obj
+__Hcomram 0 0 ABS 0 comram dist/default/debug/project1.X.debug.obj
+__Hconfig 30000E 0 CONFIG 0 config dist/default/debug/project1.X.debug.obj
+__size_of_DelayExternalEEPROM 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__CFG_LPT1OSC$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_writeIEEPROM 3F14 0 CODE 0 text1 dist/default/debug/project1.X.debug.obj
+__fassert 4140 0 CODE 0 text72 dist/default/debug/project1.X.debug.obj
+__end_of_Delay10TCYx 4140 0 CODE 0 text52 dist/default/debug/project1.X.debug.obj
+i2WriteI2C@data_out 2 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_displayHours 2A9 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+_RBO_init 4336 0 CODE 0 text24 dist/default/debug/project1.X.debug.obj
+__end_of_Delay1KTCYx 3CEC 0 CODE 0 text32 dist/default/debug/project1.X.debug.obj
+__Lbank0 0 0 ABS 0 bank0 dist/default/debug/project1.X.debug.obj
+__Lbank1 0 0 ABS 0 bank1 dist/default/debug/project1.X.debug.obj
+__Lbank2 0 0 ABS 0 bank2 dist/default/debug/project1.X.debug.obj
+__Lbank3 0 0 ABS 0 bank3 dist/default/debug/project1.X.debug.obj
+__Lbank4 0 0 ABS 0 bank4 dist/default/debug/project1.X.debug.obj
+__Lbank5 0 0 ABS 0 bank5 dist/default/debug/project1.X.debug.obj
+__end_of_isdigit 41F2 0 CODE 0 text71 dist/default/debug/project1.X.debug.obj
+__Lcinit 0 0 ABS 0 cinit dist/default/debug/project1.X.debug.obj
+__Lconst 0 0 CONST 0 const dist/default/debug/project1.X.debug.obj
+__Lidata 0 0 CODE 0 idata dist/default/debug/project1.X.debug.obj
+__Lidloc 200000 0 IDLOC 0 idloc dist/default/debug/project1.X.debug.obj
+___ftadd@exp1 14 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+___ftadd@exp2 13 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+___ftadd@sign 12 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/debug/project1.X.debug.obj
+__Lparam 0 0 COMRAM 1 rparam dist/default/debug/project1.X.debug.obj
+__Lrdata 0 0 COMRAM 1 rdata dist/default/debug/project1.X.debug.obj
+__Lstack 0 0 STACK 2 stack dist/default/debug/project1.X.debug.obj
+__Ltext0 0 0 ABS 0 text0 dist/default/debug/project1.X.debug.obj
+__Ltext1 0 0 ABS 0 text1 dist/default/debug/project1.X.debug.obj
+__Ltext2 0 0 ABS 0 text2 dist/default/debug/project1.X.debug.obj
+__Ltext3 0 0 ABS 0 text3 dist/default/debug/project1.X.debug.obj
+__Ltext4 0 0 ABS 0 text4 dist/default/debug/project1.X.debug.obj
+__Ltext5 0 0 ABS 0 text5 dist/default/debug/project1.X.debug.obj
+__Ltext6 0 0 ABS 0 text6 dist/default/debug/project1.X.debug.obj
+__Ltext7 0 0 ABS 0 text7 dist/default/debug/project1.X.debug.obj
+__Ltext8 0 0 ABS 0 text8 dist/default/debug/project1.X.debug.obj
+__Ltext9 0 0 ABS 0 text9 dist/default/debug/project1.X.debug.obj
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/debug/project1.X.debug.obj
+?i2_sprintf 1C 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+i2___wmul@product 5 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__end_of_reply_message_serial_com 1354 0 CODE 0 text66 dist/default/debug/project1.X.debug.obj
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/debug/project1.X.debug.obj
+__end_of__fassert 4168 0 CODE 0 text72 dist/default/debug/project1.X.debug.obj
+_INTCONbits FF2 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_SetDDRamAddr 3B10 0 CODE 0 text29 dist/default/debug/project1.X.debug.obj
+__Habs1 0 0 ABS 0 abs1 dist/default/debug/project1.X.debug.obj
+__Hdata 0 0 ABS 0 data dist/default/debug/project1.X.debug.obj
+__Hinit 12 0 CODE 0 init dist/default/debug/project1.X.debug.obj
+__Hrbit 0 0 COMRAM 1 rbit dist/default/debug/project1.X.debug.obj
+__Hrbss 0 0 COMRAM 1 rbss dist/default/debug/project1.X.debug.obj
+__Htemp 80 0 COMRAM 1 temp dist/default/debug/project1.X.debug.obj
+__Htext 0 0 ABS 0 text dist/default/debug/project1.X.debug.obj
+__Labs1 0 0 ABS 0 abs1 dist/default/debug/project1.X.debug.obj
+__Ldata 0 0 ABS 0 data dist/default/debug/project1.X.debug.obj
+__Linit E 0 CODE 0 init dist/default/debug/project1.X.debug.obj
+__Lrbit 0 0 COMRAM 1 rbit dist/default/debug/project1.X.debug.obj
+__Lrbss 0 0 COMRAM 1 rbss dist/default/debug/project1.X.debug.obj
+__Ltemp 7F 0 COMRAM 1 temp dist/default/debug/project1.X.debug.obj
+__Ltext 0 0 ABS 0 text dist/default/debug/project1.X.debug.obj
+__CFG_XINST$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+assync_serial_commun@c 5A 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+assync_serial_commun@i 5D 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__end_of_RBO_init 4342 0 CODE 0 text24 dist/default/debug/project1.X.debug.obj
+memset@c 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+memset@n 5 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+memset@p 7 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+___ftge 36D2 0 CODE 0 text44 dist/default/debug/project1.X.debug.obj
+___lmul 394E 0 CODE 0 text33 dist/default/debug/project1.X.debug.obj
+readEEEPROM@value 241 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+___wmul 3FF6 0 CODE 0 text19 dist/default/debug/project1.X.debug.obj
+__size_ofi2_DelayExternalEEPROM 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug/project1.X.debug.obj
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/debug/project1.X.debug.obj
+__LcstackBANK2 0 0 ABS 0 cstackBANK2 dist/default/debug/project1.X.debug.obj
+int$flags 7F 0 COMRAM 1 temp dist/default/debug/project1.X.debug.obj
+OpenI2C@slew 23C 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__size_of_timer1_isr 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__Hintret 0 0 ABS 0 intret dist/default/debug/project1.X.debug.obj
+__Hirdata 0 0 CODE 0 irdata dist/default/debug/project1.X.debug.obj
+assync_serial_commun@reply_data 5F 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_ISR 8 0 CODE 0 intcode dist/default/debug/project1.X.debug.obj
+_PR2 FCB 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__S0 30000E 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__S1 2AD 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__S2 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_meteo_init_EEEPROM 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+atoi@sign B 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__size_of_WriteDataXLCD 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_DelayFor18TCY 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_WriteUSART 42E4 0 CODE 0 text78 dist/default/debug/project1.X.debug.obj
+__CFG_PBADEN$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+i2___lwdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+ReadUSART@data 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+putsXLCD@buffer 23D 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+_CloseADC 436E 0 CODE 0 text54 dist/default/debug/project1.X.debug.obj
+___awtoft@c 9 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug/project1.X.debug.obj
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/debug/project1.X.debug.obj
+_maxLuminosity 22E 0 BANK2 1 dataBANK2 dist/default/debug/project1.X.debug.obj
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/debug/project1.X.debug.obj
+_DelayExternalEEPROM 40C0 0 CODE 0 text35 dist/default/debug/project1.X.debug.obj
+__end_of_ISR 363E 0 CODE 0 intcode_body dist/default/debug/project1.X.debug.obj
+__end_of_putrsXLCD 3FF6 0 CODE 0 text16 dist/default/debug/project1.X.debug.obj
+int_func 35A4 0 CODE 0 intcode_body dist/default/debug/project1.X.debug.obj
+__CFG_CCP2MX$PORTC 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_getLuminosity 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_timer0_init 42BC 0 CODE 0 text82 dist/default/debug/project1.X.debug.obj
+__size_of_BusyADC 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+OpenADC@config2 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_luminosity 2A1 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+__end_of_CloseADC 4374 0 CODE 0 text54 dist/default/debug/project1.X.debug.obj
+__size_of_putrsXLCD 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__Lintentry 0 0 ABS 0 intentry dist/default/debug/project1.X.debug.obj
+_iALLON EF 0 BANK0 1 bssBANK0 dist/default/debug/project1.X.debug.obj
+_iALTON F1 0 BANK0 1 bssBANK0 dist/default/debug/project1.X.debug.obj
+SetDDRamAddr@DDaddr 23F 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__end_of_timer1_init 42D0 0 CODE 0 text3 dist/default/debug/project1.X.debug.obj
+__Hramtop 600 0 RAM 0 ramtop dist/default/debug/project1.X.debug.obj
+__size_of_SetDDRamAddr 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+strlen@s 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__Hrparam 0 0 COMRAM 1 rparam dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@F3557 D5 0 BANK0 1 dataBANK0 dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@F3559 200 0 BANK2 1 dataBANK2 dist/default/debug/project1.X.debug.obj
+__pdataBANK0 D5 0 BANK0 1 dataBANK0 dist/default/debug/project1.X.debug.obj
+__pdataBANK1 1F8 0 BANK1 1 dataBANK1 dist/default/debug/project1.X.debug.obj
+__pdataBANK2 200 0 BANK2 1 dataBANK2 dist/default/debug/project1.X.debug.obj
+__activetblptr 2 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@count 90 0 BANK0 1 cstackBANK0 dist/default/debug/project1.X.debug.obj
+__Hstruct 0 0 COMRAM 1 struct dist/default/debug/project1.X.debug.obj
+__size_of___ftge 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of___lmul 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug/project1.X.debug.obj
+__LbssBANK2 0 0 ABS 0 bssBANK2 dist/default/debug/project1.X.debug.obj
+__end_of_WriteDataXLCD 3DD4 0 CODE 0 text17 dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@start C6 0 BANK0 1 cstackBANK0 dist/default/debug/project1.X.debug.obj
+__Htext10 0 0 ABS 0 text10 dist/default/debug/project1.X.debug.obj
+__Htext11 0 0 ABS 0 text11 dist/default/debug/project1.X.debug.obj
+__Htext12 0 0 ABS 0 text12 dist/default/debug/project1.X.debug.obj
+__Htext13 0 0 ABS 0 text13 dist/default/debug/project1.X.debug.obj
+__Htext14 0 0 ABS 0 text14 dist/default/debug/project1.X.debug.obj
+__Htext15 0 0 ABS 0 text15 dist/default/debug/project1.X.debug.obj
+__Htext16 0 0 ABS 0 text16 dist/default/debug/project1.X.debug.obj
+__Htext17 0 0 ABS 0 text17 dist/default/debug/project1.X.debug.obj
+__Htext18 0 0 ABS 0 text18 dist/default/debug/project1.X.debug.obj
+__Htext19 0 0 ABS 0 text19 dist/default/debug/project1.X.debug.obj
+__Htext20 0 0 ABS 0 text20 dist/default/debug/project1.X.debug.obj
+__Htext21 0 0 ABS 0 text21 dist/default/debug/project1.X.debug.obj
+__Htext22 0 0 ABS 0 text22 dist/default/debug/project1.X.debug.obj
+__Htext23 0 0 ABS 0 text23 dist/default/debug/project1.X.debug.obj
+__Htext24 0 0 ABS 0 text24 dist/default/debug/project1.X.debug.obj
+__Htext25 0 0 ABS 0 text25 dist/default/debug/project1.X.debug.obj
+__Htext26 0 0 ABS 0 text26 dist/default/debug/project1.X.debug.obj
+__Htext27 0 0 ABS 0 text27 dist/default/debug/project1.X.debug.obj
+__Htext28 0 0 ABS 0 text28 dist/default/debug/project1.X.debug.obj
+__Htext29 0 0 ABS 0 text29 dist/default/debug/project1.X.debug.obj
+__Htext30 0 0 ABS 0 text30 dist/default/debug/project1.X.debug.obj
+__Htext31 0 0 ABS 0 text31 dist/default/debug/project1.X.debug.obj
+__Htext32 0 0 ABS 0 text32 dist/default/debug/project1.X.debug.obj
+__Htext33 0 0 ABS 0 text33 dist/default/debug/project1.X.debug.obj
+__Htext34 0 0 ABS 0 text34 dist/default/debug/project1.X.debug.obj
+__Htext35 0 0 ABS 0 text35 dist/default/debug/project1.X.debug.obj
+__Htext36 0 0 ABS 0 text36 dist/default/debug/project1.X.debug.obj
+__Htext38 0 0 ABS 0 text38 dist/default/debug/project1.X.debug.obj
+__Htext39 0 0 ABS 0 text39 dist/default/debug/project1.X.debug.obj
+__Htext40 0 0 ABS 0 text40 dist/default/debug/project1.X.debug.obj
+__Htext41 0 0 ABS 0 text41 dist/default/debug/project1.X.debug.obj
+__Htext42 0 0 ABS 0 text42 dist/default/debug/project1.X.debug.obj
+__Htext43 0 0 ABS 0 text43 dist/default/debug/project1.X.debug.obj
+__Htext44 0 0 ABS 0 text44 dist/default/debug/project1.X.debug.obj
+__Htext45 0 0 ABS 0 text45 dist/default/debug/project1.X.debug.obj
+__Htext46 0 0 ABS 0 text46 dist/default/debug/project1.X.debug.obj
+__Htext47 0 0 ABS 0 text47 dist/default/debug/project1.X.debug.obj
+__Htext48 0 0 ABS 0 text48 dist/default/debug/project1.X.debug.obj
+__Htext49 0 0 ABS 0 text49 dist/default/debug/project1.X.debug.obj
+__Htext50 0 0 ABS 0 text50 dist/default/debug/project1.X.debug.obj
+__Htext51 0 0 ABS 0 text51 dist/default/debug/project1.X.debug.obj
+__Htext52 0 0 ABS 0 text52 dist/default/debug/project1.X.debug.obj
+__Htext53 0 0 ABS 0 text53 dist/default/debug/project1.X.debug.obj
+__Htext54 0 0 ABS 0 text54 dist/default/debug/project1.X.debug.obj
+__Htext55 0 0 ABS 0 text55 dist/default/debug/project1.X.debug.obj
+__Htext56 0 0 ABS 0 text56 dist/default/debug/project1.X.debug.obj
+__Htext57 0 0 ABS 0 text57 dist/default/debug/project1.X.debug.obj
+__Htext58 0 0 ABS 0 text58 dist/default/debug/project1.X.debug.obj
+__Htext59 0 0 ABS 0 text59 dist/default/debug/project1.X.debug.obj
+__Htext60 0 0 ABS 0 text60 dist/default/debug/project1.X.debug.obj
+__Htext61 0 0 ABS 0 text61 dist/default/debug/project1.X.debug.obj
+__Htext62 0 0 ABS 0 text62 dist/default/debug/project1.X.debug.obj
+__Htext63 0 0 ABS 0 text63 dist/default/debug/project1.X.debug.obj
+__Htext64 0 0 ABS 0 text64 dist/default/debug/project1.X.debug.obj
+__Htext65 0 0 ABS 0 text65 dist/default/debug/project1.X.debug.obj
+__Htext66 0 0 ABS 0 text66 dist/default/debug/project1.X.debug.obj
+__Htext67 0 0 ABS 0 text67 dist/default/debug/project1.X.debug.obj
+__Htext68 0 0 ABS 0 text68 dist/default/debug/project1.X.debug.obj
+__Htext69 0 0 ABS 0 text69 dist/default/debug/project1.X.debug.obj
+__Htext70 0 0 ABS 0 text70 dist/default/debug/project1.X.debug.obj
+__Htext71 0 0 ABS 0 text71 dist/default/debug/project1.X.debug.obj
+__Htext72 0 0 ABS 0 text72 dist/default/debug/project1.X.debug.obj
+__Htext73 0 0 ABS 0 text73 dist/default/debug/project1.X.debug.obj
+__Htext74 0 0 ABS 0 text74 dist/default/debug/project1.X.debug.obj
+__Htext75 0 0 ABS 0 text75 dist/default/debug/project1.X.debug.obj
+__Htext76 0 0 ABS 0 text76 dist/default/debug/project1.X.debug.obj
+__Htext77 0 0 ABS 0 text77 dist/default/debug/project1.X.debug.obj
+__Htext78 0 0 ABS 0 text78 dist/default/debug/project1.X.debug.obj
+__Htext79 0 0 ABS 0 text79 dist/default/debug/project1.X.debug.obj
+__Htext80 0 0 ABS 0 text80 dist/default/debug/project1.X.debug.obj
+__Htext81 0 0 ABS 0 text81 dist/default/debug/project1.X.debug.obj
+__Htext82 0 0 ABS 0 text82 dist/default/debug/project1.X.debug.obj
+__Htext83 0 0 ABS 0 text83 dist/default/debug/project1.X.debug.obj
+__Htext84 0 0 ABS 0 text84 dist/default/debug/project1.X.debug.obj
+__Htext85 0 0 ABS 0 text85 dist/default/debug/project1.X.debug.obj
+?i2___wmul 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+?___altoft 10 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_USART_Status F9 0 BANK0 1 bssBANK0 dist/default/debug/project1.X.debug.obj
+__size_of_OpenXLCD 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+?___awtoft 9 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__end_of_DelayFor18TCY 4244 0 CODE 0 text36 dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@oper D1 0 BANK0 1 cstackBANK0 dist/default/debug/project1.X.debug.obj
+___awmod@counter 5 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_RCSTAbits FAB 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_PIE1bits F9D 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_OpenADC 3C94 0 CODE 0 text51 dist/default/debug/project1.X.debug.obj
+__end_of_OpenI2C 41B2 0 CODE 0 text23 dist/default/debug/project1.X.debug.obj
+__doprnt@ap 24C 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__doprnt@cp 254 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__doprnt@pb 248 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+floor@expon 20 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_putrsXLCD 3FC0 0 CODE 0 text16 dist/default/debug/project1.X.debug.obj
+___altoft@exp 18 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_memset 40EC 0 CODE 0 text68 dist/default/debug/project1.X.debug.obj
+WriteDataXLCD@data 23C 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+memset@p1 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__end_of_syn_serial_commun_isr 18F4 0 CODE 0 text59 dist/default/debug/project1.X.debug.obj
+_countClock 1FA 0 BANK1 1 dataBANK1 dist/default/debug/project1.X.debug.obj
+__size_of_WriteI2C 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__ptext10 3CEC 0 CODE 0 text10 dist/default/debug/project1.X.debug.obj
+__ptext11 1D5A 0 CODE 0 text11 dist/default/debug/project1.X.debug.obj
+__ptext12 4368 0 CODE 0 text12 dist/default/debug/project1.X.debug.obj
+__ptext13 3B74 0 CODE 0 text13 dist/default/debug/project1.X.debug.obj
+__ptext14 37E6 0 CODE 0 text14 dist/default/debug/project1.X.debug.obj
+__ptext15 4062 0 CODE 0 text15 dist/default/debug/project1.X.debug.obj
+__ptext16 3FC0 0 CODE 0 text16 dist/default/debug/project1.X.debug.obj
+__ptext17 3D90 0 CODE 0 text17 dist/default/debug/project1.X.debug.obj
+__ptext18 4308 0 CODE 0 text18 dist/default/debug/project1.X.debug.obj
+__ptext19 3FF6 0 CODE 0 text19 dist/default/debug/project1.X.debug.obj
+__ptext20 42E4 0 CODE 0 text20 dist/default/debug/project1.X.debug.obj
+__ptext21 39C4 0 CODE 0 text21 dist/default/debug/project1.X.debug.obj
+__ptext22 42F6 0 CODE 0 text22 dist/default/debug/project1.X.debug.obj
+__ptext23 418E 0 CODE 0 text23 dist/default/debug/project1.X.debug.obj
+__ptext24 4336 0 CODE 0 text24 dist/default/debug/project1.X.debug.obj
+__ptext25 4380 0 CODE 0 text25 dist/default/debug/project1.X.debug.obj
+__ptext26 4318 0 CODE 0 text26 dist/default/debug/project1.X.debug.obj
+__ptext27 3154 0 CODE 0 text27 dist/default/debug/project1.X.debug.obj
+__ptext28 3DD4 0 CODE 0 text28 dist/default/debug/project1.X.debug.obj
+__ptext29 3B10 0 CODE 0 text29 dist/default/debug/project1.X.debug.obj
+__ptext30 4276 0 CODE 0 text30 dist/default/debug/project1.X.debug.obj
+__ptext31 428E 0 CODE 0 text31 dist/default/debug/project1.X.debug.obj
+__ptext32 3C94 0 CODE 0 text32 dist/default/debug/project1.X.debug.obj
+__ptext33 394E 0 CODE 0 text33 dist/default/debug/project1.X.debug.obj
+__ptext34 3F14 0 CODE 0 text34 dist/default/debug/project1.X.debug.obj
+__ptext35 40C0 0 CODE 0 text35 dist/default/debug/project1.X.debug.obj
+__ptext36 422A 0 CODE 0 text36 dist/default/debug/project1.X.debug.obj
+__ptext38 18F4 0 CODE 0 text38 dist/default/debug/project1.X.debug.obj
+__ptext39 2464 0 CODE 0 text39 dist/default/debug/project1.X.debug.obj
+__ptext40 3458 0 CODE 0 text40 dist/default/debug/project1.X.debug.obj
+__ptext41 3076 0 CODE 0 text41 dist/default/debug/project1.X.debug.obj
+__ptext42 385E 0 CODE 0 text42 dist/default/debug/project1.X.debug.obj
+__ptext43 2E9E 0 CODE 0 text43 dist/default/debug/project1.X.debug.obj
+__ptext44 36D2 0 CODE 0 text44 dist/default/debug/project1.X.debug.obj
+__ptext45 2834 0 CODE 0 text45 dist/default/debug/project1.X.debug.obj
+__ptext46 38D6 0 CODE 0 text46 dist/default/debug/project1.X.debug.obj
+__ptext47 3F88 0 CODE 0 text47 dist/default/debug/project1.X.debug.obj
+__ptext48 33AA 0 CODE 0 text48 dist/default/debug/project1.X.debug.obj
+__ptext49 3762 0 CODE 0 text49 dist/default/debug/project1.X.debug.obj
+__ptext50 4328 0 CODE 0 text50 dist/default/debug/project1.X.debug.obj
+__ptext51 3C36 0 CODE 0 text51 dist/default/debug/project1.X.debug.obj
+__ptext52 4118 0 CODE 0 text52 dist/default/debug/project1.X.debug.obj
+__ptext53 4384 0 CODE 0 text53 dist/default/debug/project1.X.debug.obj
+__ptext54 436E 0 CODE 0 text54 dist/default/debug/project1.X.debug.obj
+__ptext55 4342 0 CODE 0 text55 dist/default/debug/project1.X.debug.obj
+__ptext56 32F4 0 CODE 0 text56 dist/default/debug/project1.X.debug.obj
+__ptext57 4374 0 CODE 0 text57 dist/default/debug/project1.X.debug.obj
+__ptext58 434E 0 CODE 0 text58 dist/default/debug/project1.X.debug.obj
+__ptext59 1354 0 CODE 0 text59 dist/default/debug/project1.X.debug.obj
+__ptext60 2DA8 0 CODE 0 text60 dist/default/debug/project1.X.debug.obj
+__ptext61 3BD6 0 CODE 0 text61 dist/default/debug/project1.X.debug.obj
+__ptext62 420E 0 CODE 0 text62 dist/default/debug/project1.X.debug.obj
+__ptext63 41B2 0 CODE 0 text63 dist/default/debug/project1.X.debug.obj
+__ptext64 4244 0 CODE 0 text64 dist/default/debug/project1.X.debug.obj
+__ptext65 3F4E 0 CODE 0 text65 dist/default/debug/project1.X.debug.obj
+__ptext66 D86 0 CODE 0 text66 dist/default/debug/project1.X.debug.obj
+__ptext67 3E18 0 CODE 0 text67 dist/default/debug/project1.X.debug.obj
+__ptext68 40EC 0 CODE 0 text68 dist/default/debug/project1.X.debug.obj
+__ptext69 3226 0 CODE 0 text69 dist/default/debug/project1.X.debug.obj
+__ptext70 4168 0 CODE 0 text70 dist/default/debug/project1.X.debug.obj
+__ptext71 41D4 0 CODE 0 text71 dist/default/debug/project1.X.debug.obj
+__ptext72 4140 0 CODE 0 text72 dist/default/debug/project1.X.debug.obj
+__ptext73 402C 0 CODE 0 text73 dist/default/debug/project1.X.debug.obj
+__ptext74 2106 0 CODE 0 text74 dist/default/debug/project1.X.debug.obj
+__ptext75 438A 0 CODE 0 text75 dist/default/debug/project1.X.debug.obj
+__ptext76 3E5A 0 CODE 0 text76 dist/default/debug/project1.X.debug.obj
+__ptext77 3D3E 0 CODE 0 text77 dist/default/debug/project1.X.debug.obj
+__ptext78 42D0 0 CODE 0 text78 dist/default/debug/project1.X.debug.obj
+__ptext79 4092 0 CODE 0 text79 dist/default/debug/project1.X.debug.obj
+__ptext80 363E 0 CODE 0 text80 dist/default/debug/project1.X.debug.obj
+__ptext81 437A 0 CODE 0 text81 dist/default/debug/project1.X.debug.obj
+__ptext82 42A6 0 CODE 0 text82 dist/default/debug/project1.X.debug.obj
+__ptext83 29E0 0 CODE 0 text83 dist/default/debug/project1.X.debug.obj
+__ptext84 3A38 0 CODE 0 text84 dist/default/debug/project1.X.debug.obj
+__ptext85 0 0 CODE 0 text85 dist/default/debug/project1.X.debug.obj
+__fassert@exp 2E 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_putch$intlevel0 436C 0 CODE 0 text12 dist/default/debug/project1.X.debug.obj
+___awdiv 3762 0 CODE 0 text49 dist/default/debug/project1.X.debug.obj
+___awmod 3A38 0 CODE 0 text84 dist/default/debug/project1.X.debug.obj
+___ftadd 2834 0 CODE 0 text45 dist/default/debug/project1.X.debug.obj
+___fttol 2E9E 0 CODE 0 text43 dist/default/debug/project1.X.debug.obj
+__pintcode_body 35A4 0 CODE 0 intcode_body dist/default/debug/project1.X.debug.obj
+___lwdiv 37E6 0 CODE 0 text14 dist/default/debug/project1.X.debug.obj
+___lwmod 3B74 0 CODE 0 text13 dist/default/debug/project1.X.debug.obj
+strlen@cp 5 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__size_of_buzzer_init 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+i2___lwdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/debug/project1.X.debug.obj
+__Lbigram 0 0 ABS 0 bigram dist/default/debug/project1.X.debug.obj
+DelayExternalEEPROM@i 23C 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+___lmul@multiplier 23C 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__CFG_BORV$3 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_SetDDRamAddr 3B74 0 CODE 0 text29 dist/default/debug/project1.X.debug.obj
+__end_of_getLuminosity 3502 0 CODE 0 text40 dist/default/debug/project1.X.debug.obj
+?_atoi 7 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__Lcomram 0 0 ABS 0 comram dist/default/debug/project1.X.debug.obj
+__Lconfig 300000 0 CONFIG 0 config dist/default/debug/project1.X.debug.obj
+?___ftpack 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_printf 402C 0 CODE 0 text73 dist/default/debug/project1.X.debug.obj
+__size_ofi2_WriteI2C 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+___wmul@multiplier 23C 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+OpenADC@portconfig 2 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_displaySeconds 2A5 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+_LATDbits F8C 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+OpenADC@config 5 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__doprnt@c 256 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__doprnt@f 24A 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/debug/project1.X.debug.obj
+___lwdiv@divisor 23E 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+_syn_serial_commun_isr 1354 0 CODE 0 text59 dist/default/debug/project1.X.debug.obj
+_status 228 0 BANK2 1 dataBANK2 dist/default/debug/project1.X.debug.obj
+_strlen 3F4E 0 CODE 0 text65 dist/default/debug/project1.X.debug.obj
+__Lfardata 0 0 FARRAM 0 fardata dist/default/debug/project1.X.debug.obj
+__doprnt 1D5A 0 CODE 0 text11 dist/default/debug/project1.X.debug.obj
+WriteI2C@data_out 23D 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__size_of_OnBuffer 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_global_init 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_dataInEEEPROM 275 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+stackhi 5EE 0 ABS 0 - /tmp/xcXCqbZJR.obj
+stacklo 2AD 0 ABS 0 - /tmp/xcXCqbZJR.obj
+_wALLON 299 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+_wALTON 29B 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+__Lintcode 8 0 CODE 0 intcode dist/default/debug/project1.X.debug.obj
+__size_of_putsXLCD 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_seconds 232 0 BANK2 1 dataBANK2 dist/default/debug/project1.X.debug.obj
+__Lintret 0 0 ABS 0 intret dist/default/debug/project1.X.debug.obj
+__Lirdata 0 0 CODE 0 irdata dist/default/debug/project1.X.debug.obj
+_ADCON0bits FC2 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+i2readEEEPROM@Addrhi 5 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+i2readEEEPROM@Addrlo 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_ofi2___lwdiv 3D90 0 CODE 0 text77 dist/default/debug/project1.X.debug.obj
+__end_ofi2___lwmod 3E9C 0 CODE 0 text76 dist/default/debug/project1.X.debug.obj
+_displayInterface 6C2 0 CODE 0 text9 dist/default/debug/project1.X.debug.obj
+floor@i 1D 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+floor@x 1A 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__Lspace_0 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__Lspace_1 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__Lspace_2 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__pbssCOMRAM 7B 0 COMRAM 1 bssCOMRAM dist/default/debug/project1.X.debug.obj
+__size_of_Delay10TCYx 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_memset 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_ofi2___lwdiv 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_ofi2___lwmod 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_OpenXLCD 3154 0 CODE 0 text27 dist/default/debug/project1.X.debug.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug/project1.X.debug.obj
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/debug/project1.X.debug.obj
+__HcstackBANK2 0 0 ABS 0 cstackBANK2 dist/default/debug/project1.X.debug.obj
+main@dataIn 26E 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+i2___wmul@multiplicand 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__size_of_Delay1KTCYx 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_readEEEPROM 2C86 0 CODE 0 text5 dist/default/debug/project1.X.debug.obj
+_PIR1bits F9E 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_WriteCmdXLCD 3DD4 0 CODE 0 text28 dist/default/debug/project1.X.debug.obj
+printf@ap 24 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+printf@pb 26 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+end_of_initialization 3596 0 CODE 0 cinit dist/default/debug/project1.X.debug.obj
+_WriteI2C 3AA8 0 CODE 0 text6 dist/default/debug/project1.X.debug.obj
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/debug/project1.X.debug.obj
+__Hintentry 0 0 ABS 0 intentry dist/default/debug/project1.X.debug.obj
+__end_of_DelayExternalEEPROM 40EC 0 CODE 0 text35 dist/default/debug/project1.X.debug.obj
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_RCONbits FD0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_printf 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_OpenXLCD 3226 0 CODE 0 text27 dist/default/debug/project1.X.debug.obj
+__end_of_BusyADC 434E 0 CODE 0 text55 dist/default/debug/project1.X.debug.obj
+timer1_isr@k 6B 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__end_ofi2__doprnt 2464 0 CODE 0 text74 dist/default/debug/project1.X.debug.obj
+___awdiv@quotient 7 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+?___awdiv 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+?___awmod 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+___lwdiv@dividend 23C 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+?___ftadd 9 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+?___fttol 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__end_of_TC74_init 4308 0 CODE 0 text22 dist/default/debug/project1.X.debug.obj
+?___lwdiv 23C 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+?___lwmod 243 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__size_ofi2__doprnt 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+i2___lwdiv 3D3E 0 CODE 0 text77 dist/default/debug/project1.X.debug.obj
+i2___lwmod 3E5A 0 CODE 0 text76 dist/default/debug/project1.X.debug.obj
+__Hreset_vec 6 0 CODE 0 reset_vec dist/default/debug/project1.X.debug.obj
+__size_of_TC74_init 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_minTemperature 22C 0 BANK2 1 dataBANK2 dist/default/debug/project1.X.debug.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug/project1.X.debug.obj
+__HbssBANK2 0 0 ABS 0 bssBANK2 dist/default/debug/project1.X.debug.obj
+__end_of_WriteI2C 3B10 0 CODE 0 text6 dist/default/debug/project1.X.debug.obj
+_ReadADC 4328 0 CODE 0 text50 dist/default/debug/project1.X.debug.obj
+_ReadI2C 41F2 0 CODE 0 text7 dist/default/debug/project1.X.debug.obj
+___awmod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__doprnt@val 252 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@request_data BA 0 BANK0 1 cstackBANK0 dist/default/debug/project1.X.debug.obj
+__Lramtop 600 0 RAM 0 ramtop dist/default/debug/project1.X.debug.obj
+__size_of_strlen 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_ofi2_putch 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__Lrparam 0 0 COMRAM 1 rparam dist/default/debug/project1.X.debug.obj
+_countAlarmTemperature 1F8 0 BANK1 1 dataBANK1 dist/default/debug/project1.X.debug.obj
+__pcinit 3502 0 CODE 0 cinit dist/default/debug/project1.X.debug.obj
+__size_of_RA4_init 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_SSPCON1bits FC6 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_SSPCON2bits FC5 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__ptext0 2650 0 CODE 0 text0 dist/default/debug/project1.X.debug.obj
+__ptext1 3ED8 0 CODE 0 text1 dist/default/debug/project1.X.debug.obj
+__ptext2 2F92 0 CODE 0 text2 dist/default/debug/project1.X.debug.obj
+__ptext3 42BC 0 CODE 0 text3 dist/default/debug/project1.X.debug.obj
+__ptext4 2C86 0 CODE 0 text4 dist/default/debug/project1.X.debug.obj
+__ptext5 2B56 0 CODE 0 text5 dist/default/debug/project1.X.debug.obj
+__ptext6 3AA8 0 CODE 0 text6 dist/default/debug/project1.X.debug.obj
+__ptext7 41F2 0 CODE 0 text7 dist/default/debug/project1.X.debug.obj
+__ptext8 4360 0 CODE 0 text8 dist/default/debug/project1.X.debug.obj
+__ptext9 6C2 0 CODE 0 text9 dist/default/debug/project1.X.debug.obj
+__Lstruct 0 0 COMRAM 1 struct dist/default/debug/project1.X.debug.obj
+_updateDisplay 297 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+_countMonitor EB 0 BANK0 1 dataBANK0 dist/default/debug/project1.X.debug.obj
+__Ltext10 0 0 ABS 0 text10 dist/default/debug/project1.X.debug.obj
+__Ltext11 0 0 ABS 0 text11 dist/default/debug/project1.X.debug.obj
+__Ltext12 0 0 ABS 0 text12 dist/default/debug/project1.X.debug.obj
+__Ltext13 0 0 ABS 0 text13 dist/default/debug/project1.X.debug.obj
+__Ltext14 0 0 ABS 0 text14 dist/default/debug/project1.X.debug.obj
+__Ltext15 0 0 ABS 0 text15 dist/default/debug/project1.X.debug.obj
+__Ltext16 0 0 ABS 0 text16 dist/default/debug/project1.X.debug.obj
+__Ltext17 0 0 ABS 0 text17 dist/default/debug/project1.X.debug.obj
+__Ltext18 0 0 ABS 0 text18 dist/default/debug/project1.X.debug.obj
+__Ltext19 0 0 ABS 0 text19 dist/default/debug/project1.X.debug.obj
+__Ltext20 0 0 ABS 0 text20 dist/default/debug/project1.X.debug.obj
+__Ltext21 0 0 ABS 0 text21 dist/default/debug/project1.X.debug.obj
+__Ltext22 0 0 ABS 0 text22 dist/default/debug/project1.X.debug.obj
+__Ltext23 0 0 ABS 0 text23 dist/default/debug/project1.X.debug.obj
+__Ltext24 0 0 ABS 0 text24 dist/default/debug/project1.X.debug.obj
+__Ltext25 0 0 ABS 0 text25 dist/default/debug/project1.X.debug.obj
+__Ltext26 0 0 ABS 0 text26 dist/default/debug/project1.X.debug.obj
+__Ltext27 0 0 ABS 0 text27 dist/default/debug/project1.X.debug.obj
+__Ltext28 0 0 ABS 0 text28 dist/default/debug/project1.X.debug.obj
+__Ltext29 0 0 ABS 0 text29 dist/default/debug/project1.X.debug.obj
+__Ltext30 0 0 ABS 0 text30 dist/default/debug/project1.X.debug.obj
+__Ltext31 0 0 ABS 0 text31 dist/default/debug/project1.X.debug.obj
+__Ltext32 0 0 ABS 0 text32 dist/default/debug/project1.X.debug.obj
+__Ltext33 0 0 ABS 0 text33 dist/default/debug/project1.X.debug.obj
+__Ltext34 0 0 ABS 0 text34 dist/default/debug/project1.X.debug.obj
+__Ltext35 0 0 ABS 0 text35 dist/default/debug/project1.X.debug.obj
+__Ltext36 0 0 ABS 0 text36 dist/default/debug/project1.X.debug.obj
+__Ltext38 0 0 ABS 0 text38 dist/default/debug/project1.X.debug.obj
+__Ltext39 0 0 ABS 0 text39 dist/default/debug/project1.X.debug.obj
+__Ltext40 0 0 ABS 0 text40 dist/default/debug/project1.X.debug.obj
+__Ltext41 0 0 ABS 0 text41 dist/default/debug/project1.X.debug.obj
+__Ltext42 0 0 ABS 0 text42 dist/default/debug/project1.X.debug.obj
+__Ltext43 0 0 ABS 0 text43 dist/default/debug/project1.X.debug.obj
+__Ltext44 0 0 ABS 0 text44 dist/default/debug/project1.X.debug.obj
+__Ltext45 0 0 ABS 0 text45 dist/default/debug/project1.X.debug.obj
+__Ltext46 0 0 ABS 0 text46 dist/default/debug/project1.X.debug.obj
+__Ltext47 0 0 ABS 0 text47 dist/default/debug/project1.X.debug.obj
+__Ltext48 0 0 ABS 0 text48 dist/default/debug/project1.X.debug.obj
+__Ltext49 0 0 ABS 0 text49 dist/default/debug/project1.X.debug.obj
+__Ltext50 0 0 ABS 0 text50 dist/default/debug/project1.X.debug.obj
+__Ltext51 0 0 ABS 0 text51 dist/default/debug/project1.X.debug.obj
+__Ltext52 0 0 ABS 0 text52 dist/default/debug/project1.X.debug.obj
+__Ltext53 0 0 ABS 0 text53 dist/default/debug/project1.X.debug.obj
+__Ltext54 0 0 ABS 0 text54 dist/default/debug/project1.X.debug.obj
+__Ltext55 0 0 ABS 0 text55 dist/default/debug/project1.X.debug.obj
+__Ltext56 0 0 ABS 0 text56 dist/default/debug/project1.X.debug.obj
+__Ltext57 0 0 ABS 0 text57 dist/default/debug/project1.X.debug.obj
+__Ltext58 0 0 ABS 0 text58 dist/default/debug/project1.X.debug.obj
+__Ltext59 0 0 ABS 0 text59 dist/default/debug/project1.X.debug.obj
+__Ltext60 0 0 ABS 0 text60 dist/default/debug/project1.X.debug.obj
+__Ltext61 0 0 ABS 0 text61 dist/default/debug/project1.X.debug.obj
+__Ltext62 0 0 ABS 0 text62 dist/default/debug/project1.X.debug.obj
+__Ltext63 0 0 ABS 0 text63 dist/default/debug/project1.X.debug.obj
+__Ltext64 0 0 ABS 0 text64 dist/default/debug/project1.X.debug.obj
+__Ltext65 0 0 ABS 0 text65 dist/default/debug/project1.X.debug.obj
+__Ltext66 0 0 ABS 0 text66 dist/default/debug/project1.X.debug.obj
+__Ltext67 0 0 ABS 0 text67 dist/default/debug/project1.X.debug.obj
+__Ltext68 0 0 ABS 0 text68 dist/default/debug/project1.X.debug.obj
+__Ltext69 0 0 ABS 0 text69 dist/default/debug/project1.X.debug.obj
+__Ltext70 0 0 ABS 0 text70 dist/default/debug/project1.X.debug.obj
+__Ltext71 0 0 ABS 0 text71 dist/default/debug/project1.X.debug.obj
+__Ltext72 0 0 ABS 0 text72 dist/default/debug/project1.X.debug.obj
+__Ltext73 0 0 ABS 0 text73 dist/default/debug/project1.X.debug.obj
+__Ltext74 0 0 ABS 0 text74 dist/default/debug/project1.X.debug.obj
+__Ltext75 0 0 ABS 0 text75 dist/default/debug/project1.X.debug.obj
+__Ltext76 0 0 ABS 0 text76 dist/default/debug/project1.X.debug.obj
+__Ltext77 0 0 ABS 0 text77 dist/default/debug/project1.X.debug.obj
+__Ltext78 0 0 ABS 0 text78 dist/default/debug/project1.X.debug.obj
+__Ltext79 0 0 ABS 0 text79 dist/default/debug/project1.X.debug.obj
+__Ltext80 0 0 ABS 0 text80 dist/default/debug/project1.X.debug.obj
+__Ltext81 0 0 ABS 0 text81 dist/default/debug/project1.X.debug.obj
+__Ltext82 0 0 ABS 0 text82 dist/default/debug/project1.X.debug.obj
+__Ltext83 0 0 ABS 0 text83 dist/default/debug/project1.X.debug.obj
+__Ltext84 0 0 ABS 0 text84 dist/default/debug/project1.X.debug.obj
+__Ltext85 0 0 ABS 0 text85 dist/default/debug/project1.X.debug.obj
+__size_of_ra4_isr 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_ofi2_DelayFor18TCY 425E 0 CODE 0 text64 dist/default/debug/project1.X.debug.obj
+__ramtop 600 0 RAM 0 ramtop /tmp/xcXCqbZJR.obj
+_sprintf 3CEC 0 CODE 0 text10 dist/default/debug/project1.X.debug.obj
+syn_serial_commun_isr@start_msg CB 0 BANK0 1 cstackBANK0 dist/default/debug/project1.X.debug.obj
+_OnBuffer 4374 0 CODE 0 text57 dist/default/debug/project1.X.debug.obj
+__size_of_rb0_isr 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+?__doprnt 248 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+_getLuminosity$2787 27 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+getTemperature@value 4 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__Lpowerup E 0 CODE 0 powerup dist/default/debug/project1.X.debug.obj
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug/project1.X.debug.obj
+i2__doprnt 2106 0 CODE 0 text74 dist/default/debug/project1.X.debug.obj
+_TC74_init 42F6 0 CODE 0 text22 dist/default/debug/project1.X.debug.obj
+sprintf@ap 25D 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+sprintf@pb 25F 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+sprintf@wh 257 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+_isdigit 41D4 0 CODE 0 text71 dist/default/debug/project1.X.debug.obj
+_putsXLCD 4062 0 CODE 0 text15 dist/default/debug/project1.X.debug.obj
+_DelayPORXLCD 428E 0 CODE 0 text31 dist/default/debug/project1.X.debug.obj
+__psmallconst 600 0 SMALLCONST 0 smallconst dist/default/debug/project1.X.debug.obj
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/debug/project1.X.debug.obj
+__size_of_WriteCmdXLCD 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_OnBuffer 437A 0 CODE 0 text57 dist/default/debug/project1.X.debug.obj
+__size_of_timer0_init 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+i2_readEEEPROM 2DA8 0 CODE 0 text60 dist/default/debug/project1.X.debug.obj
+__size_of_getTemperature 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_WriteUSART 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_timer1_init 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_putsXLCD 4092 0 CODE 0 text15 dist/default/debug/project1.X.debug.obj
+___param_bank 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__CFG_WDT$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug/project1.X.debug.obj
+__size_of_assync_serial_commun 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of__initialization 3596 0 CODE 0 cinit dist/default/debug/project1.X.debug.obj
+__end_ofi2_ReadI2C 422A 0 CODE 0 text62 dist/default/debug/project1.X.debug.obj
+___awmod@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__CFG_WRT0$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__CFG_WRT1$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__CFG_WRT2$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+writeIEEPROM@Addr 23D 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+writeIEEPROM@Data 23C 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__CFG_WRT3$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__CFG_WRTB$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__Libigdata 0 0 CODE 0 ibigdata dist/default/debug/project1.X.debug.obj
+__CFG_WRTC$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__CFG_WRTD$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_ofi2_ReadI2C 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_minLuminosity 22A 0 BANK2 1 dataBANK2 dist/default/debug/project1.X.debug.obj
+frexp@value 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+?_floor 1A 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__pidataBANK0 425E 0 CODE 0 idataBANK0 dist/default/debug/project1.X.debug.obj
+__pidataBANK1 4358 0 CODE 0 idataBANK1 dist/default/debug/project1.X.debug.obj
+__pidataBANK2 3E9C 0 CODE 0 idataBANK2 dist/default/debug/project1.X.debug.obj
+__Lclrtext 0 0 ABS 0 clrtext dist/default/debug/project1.X.debug.obj
+___altoft@sign 19 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+main@dataOut1 270 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+main@dataOut2 26F 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__CFG_OSC$RCIO6 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+___ftpack@sign 5 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+___lmul@product 244 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__end_ofi2_sprintf 3E5A 0 CODE 0 text67 dist/default/debug/project1.X.debug.obj
+__end_of_displayInterface D86 0 CODE 0 text9 dist/default/debug/project1.X.debug.obj
+___lmul@multiplicand 240 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+_displayMinutes 2A7 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+__CFG_PWRT$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_ofi2_sprintf 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__end_of_WriteCmdXLCD 3E18 0 CODE 0 text28 dist/default/debug/project1.X.debug.obj
+__end_of_assync_serial_commun 33AA 0 CODE 0 text56 dist/default/debug/project1.X.debug.obj
+reply_message_serial_com@str 100 0 BANK1 1 cstackBANK1 dist/default/debug/project1.X.debug.obj
+_TXSTAbits FAC 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+?_ReadADC 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_SSPCON1 FC6 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_SSPCON2 FC5 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_SSPSTAT FC7 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_RA4_init 4380 0 CODE 0 text25 dist/default/debug/project1.X.debug.obj
+i2_ReadI2C 420E 0 CODE 0 text62 dist/default/debug/project1.X.debug.obj
+__CFG_BOREN$SBORDIS 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_displayInterface 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+assync_serial_commun@reply_message 5B 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+sprintf@f 259 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__size_of_DelayPORXLCD 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+i2_DelayFor18TCY 4244 0 CODE 0 text64 dist/default/debug/project1.X.debug.obj
+__end_of_atoi 32F4 0 CODE 0 text69 dist/default/debug/project1.X.debug.obj
+__end_of_main 2834 0 CODE 0 text0 dist/default/debug/project1.X.debug.obj
+__pintcode 8 0 CODE 0 intcode dist/default/debug/project1.X.debug.obj
+isdigit@c 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__end_of_dpowers 60B 0 SMALLCONST 0 smallconst dist/default/debug/project1.X.debug.obj
+i2__doprnt@c 1B 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+i2__doprnt@f F 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_EEADR FA9 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_floor 3154 0 CODE 0 text41 dist/default/debug/project1.X.debug.obj
+__end_of_frexp 38D6 0 CODE 0 text42 dist/default/debug/project1.X.debug.obj
+?_sprintf 257 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+_isdigit$2308 2 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_PORTD F83 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_RCREG FAE 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_RCSTA FAB 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_SPBRG FAF 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_T1CON FCD 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_T2CON FCA 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_TMR1H FCF 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_TMR1L FCE 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_TRISD F95 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_TXREG FAD 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_TXSTA FAC 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_minutes 234 0 BANK2 1 dataBANK2 dist/default/debug/project1.X.debug.obj
+__end_of_putch 436E 0 CODE 0 text12 dist/default/debug/project1.X.debug.obj
+__CFG_CP0$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__CFG_CP1$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__HRAM 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__Hbss 0 0 RAM 1 bss dist/default/debug/project1.X.debug.obj
+__Hram 0 0 ABS 0 ram dist/default/debug/project1.X.debug.obj
+__Hsfr 0 0 ABS 0 sfr dist/default/debug/project1.X.debug.obj
+__LRAM 1 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__Lbss 0 0 RAM 1 bss dist/default/debug/project1.X.debug.obj
+__Lram 0 0 ABS 0 ram dist/default/debug/project1.X.debug.obj
+__Lsfr 0 0 ABS 0 sfr dist/default/debug/project1.X.debug.obj
+__CFG_CP2$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__CFG_CP3$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__end_of_RA4_init 4384 0 CODE 0 text25 dist/default/debug/project1.X.debug.obj
+i2_sprintf 3E18 0 CODE 0 text67 dist/default/debug/project1.X.debug.obj
+_errno ED 0 BANK0 1 bssBANK0 dist/default/debug/project1.X.debug.obj
+_floor 3076 0 CODE 0 text41 dist/default/debug/project1.X.debug.obj
+_frexp 385E 0 CODE 0 text42 dist/default/debug/project1.X.debug.obj
+_hours 236 0 BANK2 1 dataBANK2 dist/default/debug/project1.X.debug.obj
+_ConvertADC 4384 0 CODE 0 text53 dist/default/debug/project1.X.debug.obj
+__CFG_CPB$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_putch 4368 0 CODE 0 text12 dist/default/debug/project1.X.debug.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+i2__doprnt@flag 15 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+i2__doprnt@prec 16 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+_temperature 2A3 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+_SSPSTATbits FC7 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_CCP1CON FBD 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+___fttol@sign1 A 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__size_of_ISR 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+_displayTemperature 29F 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/debug/project1.X.debug.obj
+__HdataBANK1 0 0 ABS 0 dataBANK1 dist/default/debug/project1.X.debug.obj
+__HdataBANK2 0 0 ABS 0 dataBANK2 dist/default/debug/project1.X.debug.obj
+_updateIEEPROM 295 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+atoi@a C 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+atoi@s 7 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+displayInterface@tmp 269 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+_buzzer_init 4308 0 CODE 0 text18 dist/default/debug/project1.X.debug.obj
+OpenUSART@config 23E 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+_USART_init 42E4 0 CODE 0 text20 dist/default/debug/project1.X.debug.obj
+__end_ofi2_putch 438C 0 CODE 0 text75 dist/default/debug/project1.X.debug.obj
+__initialization 3502 0 CODE 0 cinit dist/default/debug/project1.X.debug.obj
+i2DelayExternalEEPROM@i 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__pbssBANK0 ED 0 BANK0 1 bssBANK0 dist/default/debug/project1.X.debug.obj
+__pbssBANK2 275 0 BANK2 1 bssBANK2 dist/default/debug/project1.X.debug.obj
+_OpenADC 3C36 0 CODE 0 text51 dist/default/debug/project1.X.debug.obj
+_OpenI2C 418E 0 CODE 0 text23 dist/default/debug/project1.X.debug.obj
+__pdataCOMRAM 7D 0 COMRAM 1 dataCOMRAM dist/default/debug/project1.X.debug.obj
+__end_of_DelayPORXLCD 42A6 0 CODE 0 text31 dist/default/debug/project1.X.debug.obj
+i2___lwmod@counter C 0 COMRAM 1 cstackCOMRAM dist/default/debug/project1.X.debug.obj
+__Hfardata 0 0 FARRAM 0 fardata dist/default/debug/project1.X.debug.obj
+___wmul@product 240 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__end_of_ra4_isr 2B56 0 CODE 0 text83 dist/default/debug/project1.X.debug.obj
+OpenUSART@spbrg 23C 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+__Hsmallconst 6C2 0 SMALLCONST 0 smallconst dist/default/debug/project1.X.debug.obj
+_timer0_reset 437A 0 CODE 0 text81 dist/default/debug/project1.X.debug.obj
+__end_of_rb0_isr 36D2 0 CODE 0 text80 dist/default/debug/project1.X.debug.obj
+__Lifardata 0 0 CODE 0 ifardata dist/default/debug/project1.X.debug.obj
+__size_of_LCD_init 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__size_of_readEEEPROM 0 0 ABS 0 - dist/default/debug/project1.X.debug.obj
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug/project1.X.debug.obj
+__Hintcode E 0 CODE 0 intcode dist/default/debug/project1.X.debug.obj
+meteo_init_EEEPROM@dataOut 244 0 BANK2 1 cstackBANK2 dist/default/debug/project1.X.debug.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+idloc 0 200000 200000 8 1
+text9 0 6C2 6C2 3CCA 1
+cstackCOMRAM 1 1 1 7F 1
+cstackBANK0 1 80 80 7A 1
+cstackBANK1 1 100 100 100 1
+reset_vec 0 0 0 6 1
+intcode 0 8 8 A 1
+smallconst 0 600 600 C2 1
+dataBANK2 1 200 200 AD 1
+config 0 300000 300000 E 1
